@@ -42,48 +42,39 @@ func (l *Locker) WaitLock(ctx context.Context, key string, duration time.Duratio
 			if !l.locked {
 				ret := RDB.SetNX(cctx, key, time.Now().Unix(), duration)
 				if err := ret.Err(); err != nil {
-					l.errChan <- err
-					cancel()
-					return
+					select {
+					case l.errChan <- err:
+						cancel()
+						return
+					case <-time.After(100 * time.Microsecond):
+						logger.Warn("setnx err chan block")
+						cancel()
+						return
+					}
 				}
 				if ret.Val() {
-					l.lockChan <- struct{}{}
-					cancel()
-					return
+					select {
+					case l.lockChan <- struct{}{}:
+						cancel()
+						return
+					case <-time.After(100 * time.Microsecond):
+						logger.Warn("setnx res chan block")
+						cancel()
+						return
+					}
 				}
 			}
-			time.Sleep(Config.System.LockPollingMicroseconds * time.Microsecond)
+			time.Sleep(100 * time.Microsecond)
 		}
 	}(cctx)
 	defer cancel()
 
-	returnByChan := false
-	defer func() {
-		if !returnByChan {
-			go func() {
-				SetMDCValue("reqId", reqID)
-				select {
-				case <-l.errChan:
-					return
-				case <-l.lockChan:
-					RDB.Del(context.Background(), key)
-					return
-				case <-time.After(duration):
-					logger.Warnf("wait too long for leftover lock [%s]", key)
-					return
-				}
-			}()
-		}
-	}()
-
 	select {
 	case err := <-l.errChan:
-		returnByChan = true
 		if err != nil {
 			return err
 		}
 	case <-l.lockChan:
-		returnByChan = true
 		return nil
 	case <-cctx.Done():
 		switch cctx.Err() {
