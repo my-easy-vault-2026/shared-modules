@@ -1,0 +1,2971 @@
+# 錯誤碼
+[Code0]
+one = "Success"
+other = "Success"
+
+[Code1]
+one = "Success"
+other = "Success"
+
+[Code200]
+one = "Success"
+other = "Success"
+
+[Code10000]
+one = "System error"
+other = "System error"
+
+[Code10001]
+one = "Unknown error"
+other = "Unknown error"
+
+[Code10010]
+one = "System busy"
+other = "System busy"
+
+[Code10020]
+one = "Too many requests"
+other = "Too many requests"
+
+[Code10030]
+one = "Database error"
+other = "Database error"
+
+[Code10040]
+one = "Cache error"
+other = "Cache error"
+
+[Code10050]
+one = "Internal API error"
+other = "Internal API error"
+
+[Code10051]
+one = "External API error"
+other = "External API error"
+
+[Code10060]
+one = "Not logged in"
+other = "Not logged in"
+
+[Code10061]
+one = "User blocked"
+other = "User blocked"
+
+[Code10062]
+one = "User has no pin code"
+other = "User has no pin code"
+
+[Code10063]
+one = "User already has a PIN code"
+other = "User already has a PIN code"
+
+[Code10070]
+one = "Invalid signature"
+other = "Invalid signature"
+
+[Code10080]
+one = "Data does not exist"
+other = "Data does not exist"
+
+[Code10081]
+one = "Data already exists"
+other = "Data already exists"
+
+[Code10090]
+one = "Request body format is invalid"
+other = "Request body format is invalid"
+
+[Code10100]
+one = "Request header format is invalid"
+other = "Request header format is invalid"
+
+[Code10110]
+one = "Transaction failed"
+other = "Transaction failed"
+
+[Code10111]
+one = "No such transaction type"
+other = "No such transaction type"
+
+[Code10112]
+one = "Adding assets failed"
+other = "Adding assets failed"
+
+[Code10113]
+one = "Deducting assets failed"
+other = "Deducting assets failed"
+
+[Code10114]
+one = "Freezing assets failed"
+other = "Freezing assets failed"
+
+[Code10115]
+one = "Unfreezing assets failed"
+other = "Unfreezing assets failed"
+
+[Code10116]
+one = "Adding frozen assets failed"
+other = "Adding frozen assets failed"
+
+[Code10117]
+one = "Deducting frozen assets failed"
+other = "Deducting frozen assets failed"
+
+[Code10130]
+one = "No such currency"
+other = "No such currency"
+
+[Code10140]
+one = "Malformed data"
+other = "Malformed data"
+
+[Code10150]
+one = "Invalid parameter"
+other = "Invalid parameter"
+
+[Code10160]
+one = "Unimplemented"
+other = "Unimplemented"
+
+[Code10170]
+one = "No permission"
+other = "No permission"
+
+[Code10180]
+one ="Cache write failed"
+other ="Cache write failed"
+
+[Code10181]
+one ="Cache read failed"
+other ="Cache read failed"
+
+[Code10182]
+one ="Cache update failed"
+other ="Cache update failed"
+
+[Code10183]
+one ="Cache delete failed"
+other ="Cache delete failed"
+
+[Code10184]
+one ="Cache expiration failed"
+other ="Cache expiration failed"
+
+[Code10190]
+one ="Missing parameter"
+other ="Missing parameter"
+
+[Code10213]
+one = "Signature verification failed"
+other = "Signature verification failed"
+
+[Code10240]
+one = "Please try again later"
+other = "Please try again later"
+
+[Code10250]
+one = "The page size exceeds the maximum allowed limit"
+other = "The page size exceeds the maximum allowed limit"
+
+[Code10260]
+one = "Insufficient memory"
+other = "Insufficient memory"
+
+[Code10000010]
+one = "No such user"
+other = "No such user"
+
+[Code10000020]
+one = "User already has pin code"
+other = "User already has pin code"
+
+[Code10000030]
+one = "User pin code confirmation failed"
+other = "User pin code confirmation failed"
+
+[Code10000040]
+one = "Pin code format invalid"
+other = "Pin code format invalid"
+
+[Code10000050]
+one = "KYC information not uploaded"
+other = "KYC information not uploaded"
+
+[Code10000060]
+one = "Duplicate KYC"
+other = "Duplicate KYC"
+
+[Code10000070]
+one = "No face detection"
+other = "No face detection"
+
+[Code10000080]
+one = "Unable to cancel the account due to remaining asset balance."
+other = "Unable to cancel the account due to remaining asset balance."
+
+[Code20000010]
+one = "Incorrect email or OTP"
+other = "Incorrect email or OTP"
+
+[Code20000020]
+one = "Retry exceeded 5 times, please try again after 10 minutes."
+other = "Retry exceeded 5 times, please try again after 10 minutes."
+
+[Code30000010]
+one = "Incorrect PIN code"
+other = "Incorrect PIN code"
+
+[Code30000020]
+one = "No such asset category"
+other = "No such asset category"
+
+[Code30000030]
+one = "No such asset"
+other = "No such asset"
+
+[Code30000040]
+one = "Asset already exists"
+other = "Asset already exists"
+
+[Code30000041]
+one = "Asset does not exist"
+other = "Asset does not exist"
+
+[Code30000050]
+one = "Activation deposit not enough"
+other = "Activation deposit not enough"
+
+[Code30000060]
+one = "Application expired"
+other = "Application expired"
+
+[Code30000070]
+one = "Insufficient funds"
+other = "Insufficient funds"
+
+[Code30000080]
+one = "Card already deposited"
+other = "Card already deposited"
+
+[Code30000081]
+one = "Card already created"
+other = "Card already created"
+
+[Code30000082]
+one = "Card already activated"
+other = "Card already activated"
+
+[Code30000083]
+one = "Card already has PAN"
+other = "Card already has PAN"
+
+[Code30000090]
+one = "Deposit from card not supported"
+other = "Deposit from card not supported"
+
+[Code30000100]
+one = "KYC level insufficient"
+other = "KYC level insufficient"
+
+[Code30000110]
+one = "No card asset"
+other = "No card asset"
+
+[Code30000120]
+one = "No such card"
+other = "No such card"
+
+[Code30000130]
+one = "Wallet and asset mismatch"
+other = "Wallet and asset mismatch"
+
+[Code30000140]
+one = "Card already exists"
+other = "Card already exists"
+
+[Code30000150]
+one = "No such apply promotion"
+other = "No such apply promotion"
+
+[Code30000160]
+one = "Card status exception"
+other = "Card status exception"
+
+[Code30000170]
+one = "No such currency"
+other = "No such currency"
+
+[Code30000180]
+one = "No passed KYC"
+other = "No passed KYC"
+
+[Code30000190]
+one ="User information not found"
+other ="User information not found"
+
+[Code30000200]
+one ="Incomplete user information"
+other ="Incomplete user information"
+
+[Code30000210]
+one ="Incomplete address information"
+other ="Incomplete address information"
+
+[Code30000220]
+one = "Create card failed"
+other = "Create card failed"
+
+[Code30000240]
+one = "The merchant is not allowed to use this type"
+other = "The merchant is not allowed to use this type"
+
+[Code30000251]
+one = "This card is not open for application"
+other = "This card is not open for application"
+
+[Code40000010]
+one = "No such asset"
+other = "No such asset"
+
+[Code40000020]
+one = "Invalid target"
+other = "Invalid target"
+
+[Code40000030]
+one = "Invalid transaction type"
+other = "Invalid transaction type"
+
+[Code50000010]
+one = "No such wallet"
+other = "No such wallet"
+
+[Code50000020]
+one = "No such wallet address"
+other = "No such wallet address"
+
+[Code50000030]
+one = "No such mainnet"
+other = "No such mainnet"
+
+[Code50000040]
+one = "No such protocol"
+other = "No such protocol"
+
+[Code50000050]
+one = "No such currency"
+other = "No such currency"
+
+[Code50000060]
+one = "No such category"
+other = "No such category"
+
+[Code50000070]
+one = "Invalid category"
+other = "Invalid category"
+
+[Code50000080]
+one = "Wallet already exists"
+other = "Wallet already exists"
+
+[Code50000090]
+one = "No such flag"
+other = "No such flag"
+
+[Code50000100]
+one = "Currency mainnet not supported"
+other = "Currency mainnet not supported"
+
+[Code50000110]
+one = "Address pool empty"
+other = "Address pool empty"
+
+[Code60000010]
+one = "No such currency"
+other = "No such currency"
+
+[Code60000020]
+one = "No such purpose"
+other = "No such purpose"
+
+[Code70000010]
+one = "No such parameter"
+other = "No such parameter"
+
+[Code80000010]
+one = "No such currency"
+other = "No such currency"
+
+[Code80000020]
+one = "No such card"
+other = "No such card"
+
+[Code80000030]
+one = "Invalid target"
+other = "Invalid target"
+
+[Code80000040]
+one = "Exchange already processed"
+other = "Exchange already processed"
+
+[Code80000050]
+one = "Insufficient fund"
+other = "Insufficient fund"
+
+[Code80000060]
+one = "Invalid category"
+other = "Invalid category"
+
+[Code80000070]
+one = "Wallet already exists"
+other = "Wallet already exists"
+
+[Code80000080]
+one ="Source card is frozen"
+other ="Source card is frozen"
+
+[Code80000081]
+one ="Target card is frozen"
+other ="Target card is frozen"
+
+[Code80000090]
+one ="Invalid asset"
+other ="Invalid asset"
+
+[Code80000100]
+one ="No such user"
+other ="No such user"
+
+[Code80000110]
+one ="Amount too low"
+other ="Amount too low"
+
+[Code80000120]
+one ="Amount too high"
+other ="Amount too high"
+
+[Code90000010]
+one = "No such card"
+other = "No such card"
+
+[Code90000020]
+one = "Insufficient funds"
+other = "Insufficient funds"
+
+[Code90000030]
+one = "Invalid currency"
+other = "Invalid currency"
+
+[Code90000040]
+one = "No such transaction"
+other = "No such transaction"
+
+[Code90000050]
+one = "Transaction already processed"
+other = "Transaction already processed"
+
+[Code90000051]
+one = "Transaction already reversed"
+other = "Transaction already reversed"
+
+[Code90000052]
+one = "Transaction already declined"
+other = "Transaction already declined"
+
+[Code90000070]
+one = "Amount mismatch"
+other = "Amount mismatch"
+
+[Code90000080]
+one = "Data loss"
+other = "Data loss"
+
+[Code90000090]
+one = "Anomaly transaction"
+other = "Anomaly transaction"
+
+[Code90000100]
+one = "Asset not frozen"
+other = "Asset not frozen"
+
+[Code90000110]
+one = "3ds notification not found"
+other = "3ds notification not found"
+
+[Code90000120]
+one ="Incorrect pin code"
+other ="Incorrect pin code"
+
+[Code100000010]
+one = "No such category"
+other = "No such category"
+
+[Code100000020]
+one ="User does not have this card"
+other ="User does not have this card"
+
+[Code100000030]
+one ="User does not have this order"
+other ="User does not have this order"
+
+[Code110000010]
+one = "No such promotion code"
+other = "No such promotion code"
+
+[Code110000020]
+one = "Promotion code not applicable"
+other = "Promotion code not applicable"
+
+[Code110000030]
+one = "No such currency"
+other = "No such currency"
+
+[Code110000040]
+one = "The discount code usage limit has been reached. Please try again later."
+other = "The discount code usage limit has been reached. Please try again later."
+
+[Code110000050]
+one = "Reference code already exists"
+other = "Reference code already exists"
+
+[Code120000000]
+one = "Country code should be number"
+other = "Country code should be number"
+
+[Code130000010]
+one = "No such card"
+other = "No such card"
+
+[Code130000020]
+one = "Invalid top-up target"
+other = "Invalid top-up target"
+
+[Code130000030]
+one = "Incorrect PIN code"
+other = "Incorrect PIN code"
+
+[Code130000060]
+one = "Top-up expired"
+other = "Top-up expired"
+
+[Code130000070]
+one = "Insufficient fund"
+other = "Insufficient fund"
+
+[Code130000080]
+one = "Top-up already processed"
+other = "Top-up already processed"
+
+[Code130000090]
+one ="Source card is frozen"
+other ="Source card is frozen"
+
+[Code130000091]
+one ="Target card is frozen"
+other ="Target card is frozen"
+
+[Code130000092]
+one = "The source card has been blocked"
+other = "The source card has been blocked"
+
+[Code130000093]
+one = "The target card has been blocked"
+other = "The target card has been blocked"
+
+[Code130000100]
+one ="No such user"
+other ="No such user"
+
+[Code130000110]
+one ="Amount too low"
+other ="Amount too low"
+
+[Code130000150]
+one ="Amount too low. The minimum amount is 200 USD"
+other ="Amount too low. The minimum amount is 200 USD"
+
+[Code130000120]
+one ="Amount too high"
+other ="Amount too high"
+
+[Code140000010]
+one = "No such card"
+other = "No such card"
+
+[Code140000020]
+one = "Invalid transfer target"
+other = "Invalid transfer target"
+
+[Code140000030]
+one = "Incorrect PIN code"
+other = "Incorrect PIN code"
+
+[Code140000060]
+one = "Transfer expired"
+other = "Transfer expired"
+
+[Code140000070]
+one = "Insufficient fund"
+other = "Insufficient fund"
+
+[Code140000080]
+one = "Transfer already processed"
+other = "Transfer already processed"
+
+[Code140000090]
+one = "No such user"
+other = "No such user"
+
+[Code140000100]
+one = "No such asset category"
+other = "No such asset category"
+
+[Code140000110]
+one = "No such currency"
+other = "No such currency"
+
+[Code140000120]
+one = "Wallet already exists"
+other = "Wallet already exists"
+
+[Code140000130]
+one = "Invalid asset category"
+other = "Invalid asset category"
+
+[Code140000140]
+one = "No such address"
+other = "No such address"
+
+[Code140000150]
+one ="Source card is frozen"
+other ="Source card is frozen"
+
+[Code140000151]
+one ="Target card is frozen"
+other ="Target card is frozen"
+
+[Code140000180]
+one ="Amount too low"
+other ="Amount too low"
+
+[Code140000190]
+one ="Amount too high"
+other ="Amount too high"
+
+[Code140000250]
+one ="Target card is blocked"
+other ="Target card is blocked"
+
+[Code140000260]
+one ="Target user is blocked"
+other ="Target user is blocked"
+
+[Code140000240]
+one = "Source card is blocked"
+other = "Source card is blocked"
+
+[Code140000270]
+one ="Source user is blocked"
+other ="Source user is blocked"
+
+[Code190000240]
+one ="Source user is blocked"
+other ="Source user is blocked"
+
+[Code150000010]
+one = "No such card"
+other = "No such card"
+
+[Code150000020]
+one = "Invalid top-down target"
+other = "Invalid top-down target"
+
+[Code150000030]
+one = "Incorrect PIN code"
+other = "Incorrect PIN code"
+
+[Code150000060]
+one = "Top-down expired"
+other = "Top-down expired"
+
+[Code150000070]
+one = "Insufficient fund"
+other = "Insufficient fund"
+
+[Code150000080]
+one = "Top-down already processed"
+other = "Top-down already processed"
+
+[Code150000090]
+one ="Source card is frozen"
+other ="Source card is frozen"
+
+[Code150000091]
+one ="Target card is frozen"
+other ="Target card is frozen"
+
+[Code150000092]
+one = "The source card has been locked"
+other = "The source card has been locked"
+
+[Code150000093]
+one = "The target card has been locked"
+other = "The target card has been locked"
+
+[Code150000110]
+one ="Amount too low"
+other ="Amount too low"
+
+[Code150000130]
+one ="Amount too low. The minimum amount is 200 USD"
+other ="Amount too low. The minimum amount is 200 USD"
+
+[Code150000120]
+one ="Amount too high"
+other ="Amount too high"
+
+[Code160000010]
+one = "No such card"
+other = "No such card"
+
+[Code160000020]
+one = "Insufficient fund"
+other = "Insufficient fund"
+
+[Code160000030]
+one = "No such mainnet"
+other = "No such mainnet"
+
+[Code160000040]
+one = "No such protocol"
+other = "No such protocol"
+
+[Code160000050]
+one = "Mainnet and protocol not supported"
+other = "Mainnet and protocol not supported"
+
+[Code160000060]
+one = "Withdrawal already processed"
+other = "Withdrawal already processed"
+
+[Code160000070]
+one = "No withdrawal signature identity"
+other = "No withdrawal signature identity"
+
+[Code160000080]
+one = "Invalid signature"
+other = "Invalid signature"
+
+[Code160000090]
+one ="Source card is frozen"
+other ="Source card is frozen"
+
+[Code160000100]
+one ="No such category"
+other ="No such category"
+
+[Code160000110]
+one ="No such user"
+other ="No such user"
+
+[Code160000120]
+one ="Withdrawal not supported"
+other ="Withdrawal not supported"
+
+[Code160000130]
+one ="Incorrect PIN code"
+other ="Incorrect PIN code"
+
+[Code160000140]
+one ="Withdrawal expired"
+other ="Withdrawal expired"
+
+[Code160000150]
+one ="Invalid channel"
+other ="Invalid channel"
+
+[Code160000160]
+one ="Amount is less than the fee"
+other ="Amount is less than the fee"
+
+[Code160000170]
+one ="Amount too low"
+other ="Amount too low"
+
+[Code160000180]
+one ="Amount too high"
+other ="Amount too high"
+
+[Code160000190]
+one = "Source user is blocked"
+other = "Source user is blocked"
+
+[Code160000200]
+one = "Source card is blocked"
+other = "Source card is blocked"
+
+[Code170000010]
+one = "User already exists"
+other = "User already exists"
+
+[Code170000020]
+one = "Invalid admin level"
+other = "Invalid admin level"
+
+[Code180000010]
+one = "No such order"
+other = "No such order"
+
+[Code180000020]
+one = "No such mainnet"
+other = "No such mainnet"
+
+[Code180000030]
+one = "No case-sensitive data"
+other = "No case-sensitive data"
+
+[Code190000010]
+one ="No such card"
+other ="No such card"
+
+[Code190000020]
+one ="Invalid recharge recipient"
+other ="Invalid recharge recipient"
+
+[Code190000030]
+one ="Incorrect pin code"
+other ="Incorrect pin code"
+
+[Code190000060]
+one ="Transfer has expired"
+other ="Transfer has expired"
+
+[Code190000070]
+one ="Insufficient funds"
+other ="Insufficient funds"
+
+[Code190000080]
+one ="Transfer has been processed"
+other ="Transfer has been processed"
+
+[Code190000090]
+one ="No such user"
+other ="No such user"
+
+[Code190000100]
+one ="No such asset type"
+other ="No such asset type"
+
+[Code190000110]
+one ="No such currency"
+other ="No such currency"
+
+[Code190000120]
+one ="Wallet already exists"
+other ="Wallet already exists"
+
+[Code190000130]
+one ="Invalid asset type"
+other ="Invalid asset type"
+
+[Code190000140]
+one ="No such address"
+other ="No such address"
+
+[Code190000150]
+one ="Source card is frozen"
+other ="Source card is frozen"
+
+[Code190000151]
+one ="Target card is frozen"
+other ="Target card is frozen"
+
+[Code190000160]
+one ="Recipient has no such card"
+other ="Recipient has no such card"
+
+[Code190000180]
+one ="Amount too low"
+other ="Amount too low"
+
+[Code190000190]
+one ="Amount too high"
+other ="Amount too high"
+
+[Code190000200]
+one ="Source user is blocked"
+other ="Source user is blocked"
+
+[Code190000210]
+one ="Target user is blocked"
+other ="Target user is blocked"
+
+[Code190000220]
+one = "Source card is blocked"
+other = "Source card is blocked"
+
+[Code190000230]
+one ="Target card is blocked"
+other ="Target card is blocked"
+
+[Code10000090]
+one ="Exceeds the monthly limit"
+other ="Exceeds the monthly limit"
+
+[Code20000050]
+one ="The initiated verification does not exist"
+other ="The initiated verification request already exists"
+
+[Code20000060]
+one ="The initiated verification does not exist"
+other ="The initiated verification request already exists"
+
+[Code20000080]
+one = "This account has already set up a passkey. Please proceed on a device that supports passkey. If the device is lost, please follow the passkey replacement process."
+other = "This account has already set up a passkey. Please proceed on a device that supports passkey. If the device is lost, please follow the passkey replacement process."
+
+[Code20000090]
+one = "The current device cannot be deleted."
+other = "The current device cannot be deleted."
+
+[Code20000100]
+one = "Cannot delete the primary device."
+other = "Cannot delete the primary device."
+
+[Code20000030]
+one = "Token expired"
+other = "Token expired"
+
+[Code20000040]
+one = "Admin user not found"
+other = "Admin user not found"
+
+[Code20000070]
+one = "Verification failed"
+other = "Verification failed"
+
+[Code20000130]
+one = "Agent user not found"
+other = "Agent user not found"
+
+[Code20000140]
+one = "Unlock failed. Attempt {$ATTEMPT}"
+other = "Unlock failed. Attempt {$ATTEMPT}"
+
+[Code20000141]
+one = "Unlock failed. Exceeds limit, please force logout."
+other = "Unlock failed. Exceeds limit, please force logout."
+
+[Code10000100]
+one ="The phone number is incorrect"
+other ="The phone number is incorrect"
+
+[Code10000110]
+one = "Exceeds daily limit"
+other = "Exceeds daily limit"
+
+[Code10000120]
+one = "Exceeds daily usage limit"
+other = "Exceeds daily usage limit"
+
+[Code10000130]
+one = "Exceeds monthly usage limit"
+other = "Exceeds monthly usage limit"
+
+[Code10000190]
+one = "Your account has high-risk behavior, please contact our customer service."
+other = "Your account has high-risk behavior, please contact our customer service."
+
+[Code60000030]
+one = "Unable to retrieve exchange rate"
+other = "Unable to retrieve exchange rate"
+
+[Code10000160]
+one = "Exceeds per transaction limit"
+other = "Exceeds per transaction limit"
+
+[Code30000270]
+one = "Please withdraw funds before deleting the card"
+other = "Please withdraw funds before deleting the card"
+
+[Code30000280]
+one = "Invalid asset type"
+other = "Invalid asset type"
+
+[Code30000290]
+one = "Default card application category not set for merchant"
+other = "Default card application category not set for merchant"
+
+[Code30000400]
+one = "Funding process not yet complete"
+other = "Funding process not yet complete"
+
+[Code30000420]
+one = "Your card is currently in a blocked status. Please contact customer service for assistance."
+other = "Your card is currently in a blocked status. Please contact customer service for assistance."
+
+[Code30000430]
+one = "Unable to proceed payment with this card. Please select another card."
+other = "Unable to proceed payment with this card. Please select another card."
+
+[Code340000010]
+one = "The card limit has not been synchronized, please try again later."
+other = "The card limit has not been synchronized, please try again later."
+
+[Code340000020]
+one = "No such merchant"
+other = "No such merchant"
+
+[Code350000010]
+one = "The finance report table is incorrect. Please contact support."
+other = "The finance report table is incorrect. Please contact support."
+
+[Code350000020]
+one = "The selected date range is too large. Please narrow the range and try again."
+other = "The selected date range is too large. Please narrow the range and try again."
+
+[Code360000010]
+one = "Card not found"
+other = "Card not found"
+
+[Code360000020]
+one = "Max order size"
+other = "Max order size"
+
+
+[Code10200]
+one = "Missing parameter"
+other = "Missing parameters"
+
+[Code10210]
+one = "Encryption failed"
+other = "Encryption failed"
+
+[Code10211]
+one = "Decryption failed"
+other = "Decryption failed"
+
+[Code10212]
+one = "Signature failed"
+other = "Signature failed"
+
+[Code10220]
+one = "Illegal operation"
+other = "Illegal operation"
+
+[Code10000170]
+one = "Limit setting cannot exceed maximum limit"
+other = "Limit setting cannot exceed maximum limit"
+
+[Code10000210]
+one = "The date of birth is incorrect"
+other = "The date of birth is incorrect"
+
+[Code10000220]
+one = "The name exceeds 27 characters. Please modify your name and try again."
+other = "The name exceeds 27 characters. Please modify your name and try again."
+
+[Code10000230]
+one = "First name or last name exceeds 20 characters. Please modify your name and try again."
+other = "First name or last name exceeds 20 characters. Please modify your name and try again."
+
+[Code20000110]
+one = "Reap signature expired"
+other = "Reap signature expired"
+
+[Code20000120]
+one = "Reap signature does not match"
+other = "Reap signature does not match"
+
+[Code30000260]
+one = "No such merchant"
+other = "No such merchant"
+
+[Code30000330]
+one = "Not shippable"
+other = "Not shippable"
+
+[Code30000340]
+one = "Reap shipping failed"
+other = "Reap shipping failed"
+
+[Code30000350]
+one = "Failed to get Reap shipping order number"
+other = "Failed to get Reap shipping order number"
+
+[Code30000360]
+one = "Reap card activation failed"
+other = "Reap card activation failed"
+
+[Code30000370]
+one = "Shipping failed"
+other = "Shipping failed"
+
+[Code30000380]
+one = "Invalid country code"
+other = "Invalid country code"
+
+[Code30000390]
+one = "Card number or activation code mismatch"
+other = "Card number or activation code mismatch"
+
+[Code40000040]
+one = "No such merchant"
+other = "No such merchant"
+
+[Code40000050]
+one = "No such user"
+other = "No such user"
+
+[Code50000120]
+one = "Mainnet and protocol not supported"
+other = "Mainnet and protocol not supported"
+
+[Code50000130]
+one = "Not receivable"
+other = "Not receivable"
+
+[Code90000130]
+one = "No such merchant"
+other = "No such merchant"
+
+[Code90000300]
+one = "Authorization failed, please try again later."
+other = "Authorization failed, please try again later."
+
+[Code90000301]
+one = "The merchant is not set up to accept this type of card. Please try using a different payment method."
+other = "The merchant is not set up to accept this type of card. Please try using a different payment method."
+
+[Code90000302]
+one = "The transaction has been declined due to do not honour."
+other = "The transaction has been declined due to do not honour."
+
+[Code90000303]
+one = "The card has been reported as lost."
+other = "The card has been reported as lost."
+
+[Code90000304]
+one = "The card is no longer active."
+other = "The card is no longer active."
+
+[Code90000305]
+one = "Not enough balance to complete the transaction. Please add funds or use a different payment method."
+other = "Not enough balance to complete the transaction. Please add funds or use a different payment method."
+
+[Code90000306]
+one = "The card has expired. Please use a valid card."
+other = "The card has expired. Please use a valid card."
+
+[Code90000307]
+one = "The entered PIN is incorrect. Please try again."
+other = "The entered PIN is incorrect. Please try again."
+
+[Code90000308]
+one = "Something went wrong when processing the transaction. Please contact Reap for support."
+other = "Something went wrong when processing the transaction. Please contact Reap for support."
+
+[Code90000309]
+one = "The transaction is not allowed at this point of sale."
+other = "The transaction is not allowed at this point of sale."
+
+[Code90000310]
+one = "Something went wrong when processing the transaction. Please contact Reap for support."
+other = "Something went wrong when processing the transaction. Please contact Reap for support."
+
+[Code90000311]
+one = "You have exceeded your ATM withdrawal limit. Please try a smaller amount or wait for the limit to reset."
+other = "You have exceeded your ATM withdrawal limit. Please try a smaller amount or wait for the limit to reset."
+
+[Code90000312]
+one = "ATM withdrawals are not allowed in this country for your card."
+other = "ATM withdrawals are not allowed in this country for your card."
+
+[Code90000313]
+one = "You have exceeded the allowed number of ATM withdrawals. Please try again later."
+other = "You have exceeded the allowed number of ATM withdrawals. Please try again later."
+
+[Code90000314]
+one = "Card status is not normal. Please contact Reap."
+other = "Card status is not normal. Please contact Reap."
+
+[Code90000315]
+one = "The card has been blocked due to exceeding the maximum number of incorrect ATM PIN attempts."
+other = "The card has been blocked due to exceeding the maximum number of incorrect ATM PIN attempts."
+
+[Code90000316]
+one = "Reap does accept transactions for this merchant category."
+other = "Reap does accept transactions for this merchant category."
+
+[Code90000317]
+one = "Transaction took too long to process, please try again."
+other = "Transaction took too long to process, please try again."
+
+[Code90000318]
+one = "The system was unable to verify your PIN due to a technical issue or incorrect input, so the transaction could not be completed."
+other = "The system was unable to verify your PIN due to a technical issue or incorrect input, so the transaction could not be completed."
+
+[Code90000319]
+one = "Issuer Or Switch Is Inoperative."
+other = "Issuer Or Switch Is Inoperative."
+
+[Code90000320]
+one = "There's a discrepancy between the transaction records of the payment systems involved."
+other = "There's a discrepancy between the transaction records of the payment systems involved."
+
+[Code90000321]
+one = "An unexpected error happened before the payment could be fully processed."
+other = "An unexpected error happened before the payment could be fully processed."
+
+[Code90000322]
+one = "Something went wrong when processing the transaction. Please contact Reap for support."
+other = "Something went wrong when processing the transaction. Please contact Reap for support."
+
+[Code90000323]
+one = "The CVV entered is incorrect. Please check and try again."
+other = "The CVV entered is incorrect. Please check and try again."
+
+[Code90000324]
+one = "Verification of the provided data failed. Please verify and try again."
+other = "Verification of the provided data failed. Please verify and try again."
+
+[Code90000325]
+one = "The card is frozen. Please contact your account Admin."
+other = "The card is frozen. Please contact your account Admin."
+
+[Code90000326]
+one = "The card has been blocked due to multiple incorrect CVV attempts."
+other = "The card has been blocked due to multiple incorrect CVV attempts."
+
+[Code90000327]
+one = "The card has been blocked due to multiple incorrect expiry date attempts."
+other = "The card has been blocked due to multiple incorrect expiry date attempts."
+
+[Code90000328]
+one = "The card is not activated yet. Please activate it from the Reap mobile app or the Reap Dashboard."
+other = "The card is not activated yet. Please activate it from the Reap mobile app or the Reap Dashboard."
+
+[Code90000329]
+one = "Withdrawals are not allowed for this card."
+other = "Withdrawals are not allowed for this card."
+
+[Code90000330]
+one = "The daily ceiling allowed to spend for this card has been exceeded. Please contact your Admin to request an increase."
+other = "The daily ceiling allowed to spend for this card has been exceeded. Please contact your Admin to request an increase."
+
+[Code90000331]
+one = "The spending frequency allowed for this card has been exceeded. Please contact your Admin."
+other = "The spending frequency allowed for this card has been exceeded. Please contact your Admin."
+
+[Code90000332]
+one = "The card is blocked."
+other = "The card is blocked."
+
+[Code90000333]
+one = "Not enough balance to complete the transaction for this merchant category. Please add funds."
+other = "Not enough balance to complete the transaction for this merchant category. Please add funds."
+
+[Code90000334]
+one = "Insufficient funds in the budget associated with this card. Please contact your Admin to increase it."
+other = "Insufficient funds in the budget associated with this card. Please contact your Admin to increase it."
+
+[Code90000335]
+one = "The budget associated with this card has been frozen. Please contact Reap."
+other = "The budget associated with this card has been frozen. Please contact Reap."
+
+[Code90000336]
+one = "System has detected an issue with the funds. Please contact the support team for assistance."
+other = "System has detected an issue with the funds. Please contact the support team for assistance."
+
+[Code140000170]
+one = "Self transfer not allowed"
+other = "Self transfer not allowed"
+
+[Code200000010]
+one = "No such API key"
+other = "No such API key"
+
+[Code200000020]
+one = "No such user"
+other = "No such user"
+
+[Code200000030]
+one = "Invalid user role"
+other = "Invalid user role"
+
+[Code200000040]
+one = "Merchant already registered"
+other = "Merchant already registered"
+
+[Code200000050]
+one = "Admin not from merchant"
+other = "Admin not from merchant"
+
+[Code200000060]
+one = "No such asset category"
+other = "No such asset category"
+
+[Code200000070]
+one = "No such currency"
+other = "No such currency"
+
+[Code200000080]
+one = "Invalid asset category"
+other = "Invalid asset category"
+
+[Code200000090]
+one = "No such card"
+other = "No such card"
+
+[Code200000100]
+one = "3DS notification not found"
+other = "3DS notification not found"
+
+[Code200000110]
+one = "Asset not empty"
+other = "Asset not empty"
+
+[Code200000120]
+one = "Insufficient admin authority"
+other = "Insufficient admin authority"
+
+[Code200000130]
+one = "No such merchant"
+other = "No such merchant"
+
+[Code200000140]
+one = "Invalid default asset category"
+other = "Invalid default asset category"
+
+[Code200000150]
+one = "User already exist"
+other = "User already exist"
+
+[Code90000140]
+one = "Single transaction exceeds the limit"
+other = "Single transaction exceeds the limit"
+
+[Code90000150]
+one = "Daily total amount exceeds the limit"
+other = "Daily total amount exceeds the limit"
+
+[Code90000160]
+one = "Daily transaction count has reached the limit"
+other = "Daily transaction count has reached the limit"
+
+[Code90000170]
+one = "Monthly transaction count has reached the limit"
+other = "Monthly transaction count has reached the limit"
+
+[Code90000180]
+one = "Monthly total amount exceeds the limit"
+other = "Monthly total amount exceeds the limit"
+
+[Code90000190]
+one = "Insufficient balance"
+other = "Insufficient balance"
+
+[Code10230]
+one ="App version is too low. Please update to the latest version."
+other ="App version is too low. Please update to the latest version."
+
+[Code30000410]
+one ="Failed to update PIN code"
+other ="Failed to update PIN code"
+
+[Code90000200]
+one ="Invalid PIN format, please reset your PIN"
+other ="Invalid PIN format, please reset your PIN"
+
+[Code90000201]
+one ="More than two identical digits, please reset your PIN"
+other ="More than two identical digits, please reset your PIN"
+
+[Code90000202]
+one ="More than two sequential digits, please reset your PIN"
+other ="More than two sequential digits, please reset your PIN"
+
+[Code90000203]
+one ="Invalid reason code"
+other ="Invalid reason code"
+
+[Code250000030]
+one = "Out of Stock"
+other = "Out of Stock"
+
+[Code250000040]
+one = "Insufficient Balance"
+other = "Insufficient Balance"
+
+[Code250000050]
+one = "Product Expired"
+other = "Product Expired"
+
+[Code230000010]
+one = "Card not found"
+other = "Card not found"
+
+[Code230000020]
+one = "Insufficient merchant asset balance"
+other = "Insufficient merchant asset balance"
+
+[Code230000030]
+one = "Insufficient user asset balance"
+other = "Insufficient user asset balance"
+
+[Code230000040]
+one = "Card frozen"
+other = "Card frozen"
+
+[Code230000050]
+one = "Balance mismatch"
+other = "Balance mismatch"
+
+[Code230000060]
+one = "Balance deduction not supported"
+other = "Balance deduction not supported"
+
+[Code200000190]
+one = "Email address already in use"
+other = "Email address already in use"
+
+[Code200000200]
+one = "No such order"
+other = "No such order"
+
+[Code200000210]
+one = "Insufficient funds"
+other = "Insufficient funds"
+
+[Code200000220]
+one = "Merchant not trusted"
+other = "Merchant not trusted"
+
+[Code210000010]
+one = "No such card"
+other = "No such card"
+
+[Code210000020]
+one = "No approved KYC"
+other = "No approved KYC"
+
+[Code210000030]
+one = "Unsupported document type"
+other = "Unsupported document type"
+
+[Code210000040]
+one = "No such asset category"
+other = "No such asset category"
+
+[Code210000050]
+one = "Amount too low"
+other = "Amount too low"
+
+[Code210000060]
+one = "Amount too high"
+other = "Amount too high"
+
+[Code210000070]
+one = "Invalid name format"
+other = "Invalid name format"
+
+[Code210000080]
+one = "Incomplete order exists"
+other = "Incomplete order exists"
+
+[Code210000090]
+one = "KYC level insufficient"
+other = "KYC level insufficient"
+
+[Code270000010]
+one = "The deposited currency pair is currently unavailable for trading. Please try again later."
+other = "The deposited currency pair is currently unavailable for trading. Please try again later."
+
+[Code260000010]
+one = "Asset type not found"
+other = "Asset type not found"
+
+[Code260000020]
+one = "Invalid asset type"
+other = "Invalid asset type"
+
+[Code260000030]
+one = "Invalid currency"
+other = "Invalid currency"
+
+[Code260000040]
+one = "Card does not exist"
+other = "Card does not exist"
+
+[Code260000050]
+one = "Invalid target"
+other = "Invalid target"
+
+[Code260000060]
+one = "Financial product disabled"
+other = "Financial product disabled"
+
+[Code280000050]
+one = "Card status inactive"
+other = "Card status inactive"
+
+[Code280000060]
+one = "This card is issued in the United States. In accordance with regulatory requirements, your billing address must be within the U.S. Please update your billing address to a U.S. address before proceeding with card issuance."
+other = "This card is issued in the United States. In accordance with regulatory requirements, your billing address must be within the U.S. Please update your billing address to a U.S. address before proceeding with card issuance."
+
+[Code280000070]
+one = "Avoid using special characters such as [ #, . “ : / ? ] in the address."
+other = "Avoid using special characters such as [ #, . “ : / ? ] in the address."
+
+[Code280000080]
+one = "Failed to unfreeze card"
+other = "Failed to unfreeze card"
+
+[Code290000010]
+one = "Announcement not set"
+other = "Announcement not set"
+
+[Code290000020]
+one = "Announcement date format not correct"
+other = "Announcement date format not correct"
+
+[Code290000030]
+one = "Notification already exists"
+other = "Notification already exists"
+
+[Code290000040]
+one = "Format incorrect"
+other = "Format incorrect"
+
+[Code290000050]
+one = "Content length limit"
+other = "Content length limit"
+
+[Code30000440]
+one = "KYC level 1 required"
+other = "KYC level 1 required"
+
+[Code30000450]
+one = "KYC level 2 required"
+other = "KYC level 2 required"
+
+[Code30000460]
+one = "KYC level 3 required"
+other = "KYC level 3 required"
+
+[Code300000010]
+one = "Please reapply for KYC to complete missing information"
+other = "Please reapply for KYC to complete missing information"
+
+[Code300000020]
+one = "Card application KYC failed"
+other = "Card application KYC failed"
+
+[Code300000030]
+one = "Please wait for KYC review, try again in five minutes."
+other = "Please wait for KYC review, try again in five minutes."
+
+[Code300000040]
+one = "Application limit exceeded"
+other = "Application limit exceeded"
+
+[Code300000050]
+one = "KYC not completed"
+other = "KYC not completed"
+
+[Code300000060]
+one = "Document type not supported"
+other = "Document type not supported"
+
+[Code300000070]
+one = "Card activation failed"
+other = "Card activation failed"
+
+[Code300000080]
+one = "Insufficient physical card stock"
+other = "Insufficient physical card stock"
+
+[Code300000090]
+one = "PIN must be in only 4 digits."
+other = "PIN must be in only 4 digits."
+
+[Code300000100]
+one = "PIN cannot consist of the same digit repeated."
+other = "PIN cannot consist of the same digit repeated."
+
+[Code300000110]
+one = "PIN cannot consist of your phone number."
+other = "PIN cannot consist of your phone number."
+
+[Code300000120]
+one = "PIN cannot consist of the last four digits of your physical card."
+other = "PIN cannot consist of the last four digits of your physical card."
+
+[Code300000130]
+one = "Your card has not been activated yet. Please wait until the physical card is delivered to you before activating and using it."
+other = "Your card has not been activated yet. Please wait until the physical card is delivered to you before activating and using it."
+
+[Code30000470]
+one = "User profile not provided" 
+other = "User profile not provided" 
+
+[Code30000480]
+one = "Empty profile user requires KYC level 1"
+other = "Empty profile user requires KYC level 1"
+
+[Code30000490]
+one = "Empty profile user requires KYC level 2"
+other = "Empty profile user requires KYC level 2"
+
+[Code30000500]
+one = "Empty profile user requires KYC level 3"
+other = "Empty profile user requires KYC level 3"
+
+[Code30000510]
+one = "Invalid card provider"
+other = "Invalid card provider"
+
+[Code30000520]
+one = "This category requires a specific promotion code"
+other = "This category requires a specific promotion code"
+
+[Code30000530]
+one = "Card unblocking is not allowed"
+other = "Card unblocking is not allowed"
+
+[Code30000540]
+one = "Card status not in delete"
+other = "Card status not in delete"
+
+[Code30000550]
+one = "Card has already been shipped"
+other = "Card has already been shipped"
+
+[Code30000560]
+one = "Card delivery address already exists"
+other = "Card delivery address already exists"
+
+[Code30000570]
+one = "The card must be recharged to a positive balance before it can be unlocked."
+other = "The card must be recharged to a positive balance before it can be unlocked."
+
+[Code30000580]
+one = "Card number exists"
+other = "Card number exists"
+
+[Code30000590]
+one = "Card number in use"
+other = "Card number in use"
+
+[Code310000010]
+one = "Order Status Inocrrect"
+other = "Order Status Inocrrect"
+
+[Code310000020]
+one = "Can't create order"
+other = "Can't create order"
+
+[Code310000030]
+one = "deposit amount limit"
+other = "deposit amount limit"
+
+[Code310000040]
+one = "order reaches limit"
+other = "order reaches limit"
+
+[Code330000010]
+one = "invalid status"
+other = "invalid status"
+
+[Code330000020]
+one = "delivery order not found"
+other = "delivery order not found"
+
+[Code10000270]
+one = "kyc verification already passed"
+other = "kyc verification already passed"
+
+
+[Code10000241]
+one = "Invalid session ID. Please try again."
+other = "Invalid session ID. Please try again."
+
+[Code10000242]
+one = "Invalid company ID. Please try again."
+other = "Invalid company ID. Please try again."
+
+[Code10000247]
+one = "Failed to upload image. Please try again."
+other = "Failed to upload image. Please try again."
+
+[Code10000248]
+one = "An internal error occurred. Please try again later."
+other = "An internal error occurred. Please try again later."
+
+[Code10000249]
+one = "Too many failed attempts. Your verification has been temporarily locked."
+other = "Too many failed attempts. Your verification has been temporarily locked."
+
+[Code10000250]
+one = "Invalid company user ID. Please try again."
+other = "Invalid company user ID. Please try again."
+
+[Code10000251]
+one = "Unrecognized image type. Please upload a valid image."
+other = "Unrecognized image type. Please upload a valid image."
+
+[Code10000253]
+one = "Failed to save image. Please try again."
+other = "Failed to save image. Please try again."
+
+[Code10000254]
+one = "Failed to retrieve image URL. Please try again."
+other = "Failed to retrieve image URL. Please try again."
+
+[Code10000260]
+one = "Failed to acquire system lock. Please try again."
+other = "Failed to acquire system lock. Please try again."
+
+[Code10000261]
+one = "Signature verification failed. Please try again."
+other = "Signature verification failed. Please try again."
+
+# 文本
+## order
+### title
+    [text_order_title_apply]
+    one = "Apply Card Fee"
+    other = "Apply Card Fee"
+
+    [text_order_title_transfer_from]
+    one = "From {{.value1}}"
+    other = "From {{.value1}}"
+
+    [text_order_title_transfer_to]
+    one = "To {{.value1}}"
+    other = "To {{.value1}}"
+
+    [text_order_title_exchange]
+    one = "{{.value1}} To {{.value2}}"
+    other = "{{.value1}} To {{.value2}}"
+
+    [text_order_title_deposit]
+    one = "From {{.value1}}"
+    other = "From {{.value1}}"
+
+    [text_order_title_top_up_to]
+    one = "From {{.value1}}"
+    other = "From {{.value1}}"
+
+    [text_order_title_top_up_from]
+    one = "To eUSD({{.value1}})"
+    other = "To eUSD({{.value1}})"
+
+    [text_order_title_top_down_from]
+    one = "To {{.value1}}"
+    other = "To {{.value1}}"
+
+    [text_order_title_top_down_to]
+    one = "From eUSD({{.value1}})"
+    other = "From eUSD({{.value1}})"
+
+    [text_order_title_verify]
+    one = "{{.value1}}"
+    other = "{{.value1}}"
+
+    [text_order_title_card_to_card_from]
+    one = "From eUSD({{.value1}})"
+    other = "From eUSD({{.value1}})"
+
+    [text_order_title_card_to_card_to]
+    one = "To eUSD({{.value1}})"
+    other = "To eUSD({{.value1}})"
+
+    [text_order_title_withdraw]
+    one = "To {{.value1}}"
+    other = "To {{.value1}}"
+
+    [text_order_title_pay]
+    one = "{{.value1}}"
+    other = "To {{.value1}}"
+
+    [text_order_title_refund]
+    one = "{{.value1}} Refund"
+    other = "{{.value1}} Refund"
+
+    [text_order_title_cp_express]
+    one = "{{.value1}} / {{.value2}} Deposit"
+    other = "{{.value1}} / {{.value2}} Deposit"
+
+    [text_order_title_point_accural]
+    one = "Earned"
+    other = "Earned"
+
+    [text_order_title_point_redeem]
+    one = "#{{.value1}} Redeemed"
+    other = "#{{.value1}} Redeemed"
+
+    [text_order_title_interest]
+   one = "Interest"
+   other = "Interest"
+
+   [text_order_title_interest_auto_yield]
+   one = "Simple Investment Interest"
+   other = "Simple Investment Interest"
+
+   [text_order_title_financial_transfer_from]
+   one = "Transfer to {{.value1}}"
+   other = "Transfer to {{.value1}}"
+
+   [text_order_title_financial_transfer_to]
+   one = "From Investment Interest"
+   other = "From Investment Interest"
+
+   [text_order_title_financial_transfer_to_auto_yield]
+   one = "From Simple Investment"
+   other = "From Simple Investment"
+
+   [text_order_title_distribute_apply]
+   one = "Card Commission"
+   other = "Card Commission"
+
+   [text_order_title_system_charge_decline_fine]
+   one = "Decline Fine"
+   other = "Decline Fine"
+
+   [text_order_title_merchant_adjust_balance]
+    one = "Merchant Deposit"
+    other = "Merchant Deposit"
+
+## card
+### reap_code
+#### apply
+
+    [text_card_reap_apply_code_0302008]
+    one = "Invalid card expiry date"
+    other = "Invalid card expiry date"
+
+    [text_card_reap_apply_code_0302005]
+    one = "Invalid card expiry date format"
+    other = "Invalid card expiry date format"
+
+    [text_card_reap_apply_code_0302009]
+    one = "Invalid phone number"
+    other = "Invalid phone number"
+
+    [text_card_reap_apply_code_0302012]
+    one = "Spend limit is required"
+    other = "Spend limit is required"
+
+    [text_card_reap_apply_code_0321002]
+    one = "Cryptocurrency selection is required"
+    other = "Cryptocurrency selection is required"
+
+    [text_card_reap_apply_code_0302007]
+    one = "Insufficient balance in account"
+    other = "Insufficient balance in account"
+
+    [text_card_reap_apply_code_0315001]
+    one = "Card issuance not available in this country"
+    other = "Card issuance not available in this country"
+
+    [text_card_reap_apply_code_0302019]
+    one = "Secondary card name not supported for this card type"
+    other = "Secondary card name not supported for this card type"
+
+    [text_card_reap_apply_code_0309007]
+    one = "Secondary card name not supported for this card design"
+    other = "Secondary card name not supported for this card design"
+
+    [text_card_reap_apply_code_0401001]
+    one = "Insufficient credit available"
+    other = "Insufficient credit available"
+
+    [text_card_reap_apply_code_0321001]
+    one = "Withdrawal wallet is not enabled"
+    other = "Withdrawal wallet is not enabled"
+
+    [text_card_reap_apply_code_0302006]
+    one = "Root budget not found for this account"
+    other = "Root budget not found for this account"
+
+    [text_card_reap_apply_code_0309002]
+    one = "Specified card design not found"
+    other = "Specified card design not found"
+
+    [text_card_reap_apply_code_0302020]
+    one = "Unable to create card under this business account"
+    other = "Unable to create card under this business account"
+
+    [text_card_reap_apply_code_0302010]
+    one = "System is currently under maintenance"
+    other = "System is currently under maintenance"
+
+    [text_card_reap_apply_code_input_invalid]
+    one = "invalid input"
+    other = "invalid input"
+
+#### ship
+
+    [text_card_reap_ship_code_0302014]
+    one = "Cannot ship a virtual card"
+    other = "Cannot ship a virtual card"
+
+    [text_card_reap_ship_code_0302015]
+    one = "Provided card is already in production or shipped"
+    other = "Provided card is already in production or shipped"
+
+    [text_card_reap_ship_code_0302024]
+    one = "Card is restricted"
+    other = "Card is restricted"
+
+    [text_card_reap_ship_code_0315003]
+    one = "Zone required for shipments to this country"
+    other = "Zone required for shipments to this country"
+
+    [text_card_reap_ship_code_0315001]
+    one = "Shipping to this country is restricted"
+    other = "Shipping to this country is restricted"
+
+    [text_card_reap_ship_code_0315002]
+    one = "Shipping to this country is unsupported"
+    other = "Shipping to this country is unsupported"
+
+    [text_card_reap_ship_code_0315005]
+    one = "The recipient's phone number dial code should correspond to the country of shipping"
+    other = "The recipient's phone number dial code should correspond to the country of shipping"
+
+    [text_card_reap_ship_code_0315004]
+    one = "Phone number is invalid"
+    other = "Phone number is invalid"
+
+    [text_card_reap_ship_code_0315006]
+    one = "Card shipping blocked during BIN migration"
+    other = "Card shipping blocked during BIN migration"
+
+    [text_card_reap_ship_code_0309002]
+    one = "Card design cannot be found"
+    other = "Card design cannot be found"
+
+    [text_card_reap_ship_code_0309001]
+    one = "Card design is out of stock"
+    other = "Card design is out of stock"
+
+    [text_card_reap_ship_code_0302004]
+    one = "Error updating delivery address on GPS"
+    other = "Error updating delivery address on GPS"
+    
+    [text_card_reap_ship_code_999999]
+    one = "Internal Server Error"
+    other = "Internal Server Error"
+
+#### cp
+
+    [text_cp_frozen]
+    one = "The system has temporarily suspended your trading privileges. Please contact customer service if you need to restore access."
+    other = "The system has temporarily suspended your trading privileges. Please contact customer service if you need to restore access."
+
+#### country
+
+    [text_system_country_usa]
+    one = "United States"
+    other = "United States"
+
+    [text_system_country_jpn]
+    one = "Japan"
+    other = "Japan"
+
+    [text_system_country_aut]
+    one = "Austria"
+    other = "Austria"
+
+    [text_system_country_bel]
+    one = "Belgium"
+    other = "Belgium"
+
+    [text_system_country_bgr]
+    one = "Bulgaria"
+    other = "Bulgaria"
+
+    [text_system_country_cyp]
+    one = "Cyprus"
+    other = "Cyprus"
+
+    [text_system_country_cze]
+    one = "Czech Republic"
+    other = "Czech Republic"
+
+    [text_system_country_deu]
+    one = "Germany"
+    other = "Germany"
+
+    [text_system_country_dnk]
+    one = "Denmark"
+    other = "Denmark"
+
+    [text_system_country_esp]
+    one = "Spain"
+    other = "Spain"
+
+    [text_system_country_est]
+    one = "Estonia"
+    other = "Estonia"
+
+    [text_system_country_fin]
+    one = "Finland"
+    other = "Finland"
+
+    [text_system_country_fra]
+    one = "France"
+    other = "France"
+
+    [text_system_country_grc]
+    one = "Greece"
+    other = "Greece"
+
+    [text_system_country_hun]
+    one = "Hungary"
+    other = "Hungary"
+
+    [text_system_country_irl]
+    one = "Ireland"
+    other = "Ireland"
+
+    [text_system_country_ita]
+    one = "Italy"
+    other = "Italy"
+
+    [text_system_country_lat]
+    one = "Latvia"
+    other = "Latvia"
+
+    [text_system_country_lit]
+    one = "Lithuania"
+    other = "Lithuania"
+
+    [text_system_country_lux]
+    one = "Luxembourg"
+    other = "Luxembourg"
+
+    [text_system_country_mlt]
+    one = "Malta"
+    other = "Malta"
+
+    [text_system_country_nld]
+    one = "Netherlands"
+    other = "Netherlands"
+
+    [text_system_country_pol]
+    one = "Poland"
+    other = "Poland"
+
+    [text_system_country_prt]
+    one = "Portugal"
+    other = "Portugal"
+
+    [text_system_country_rou]
+    one = "Romania"
+    other = "Romania"
+
+    [text_system_country_svk]
+    one = "Slovakia"
+    other = "Slovakia"
+
+    [text_system_country_svn]
+    one = "Slovenia"
+    other = "Slovenia"
+
+    [text_system_country_swe]
+    one = "Sweden"
+    other = "Sweden"
+
+    [text_system_country_gbr]
+    one = "United Kingdom"
+    other = "United Kingdom"
+
+    [text_system_country_chn]
+    one = "China Mainland"
+    other = "China Mainland"
+
+    [text_system_country_can]
+    one = "Canada"
+    other = "Canada"
+
+    [text_system_country_aus]
+    one = "Australia"
+    other = "Australia"
+
+    [text_system_country_che]
+    one = "Switzerland"
+    other = "Switzerland"
+
+    [text_system_country_hkg]
+    one = "Hong Kong"
+    other = "Hong Kong"
+
+    [text_system_country_nzl]
+    one = "New Zealand"
+    other = "New Zealand"
+
+    [text_system_country_mex]
+    one = "Mexico"
+    other = "Mexico"
+
+    [text_system_country_sgp]
+    one = "Singapore"
+    other = "Singapore"
+
+    [text_system_country_nor]
+    one = "Norway"
+    other = "Norway"
+
+    [text_system_country_kor]
+    one = "South Korea"
+    other = "South Korea"
+
+    [text_system_country_tur]
+    one = "Turkey"
+    other = "Turkey"
+
+    [text_system_country_ind]
+    one = "India"
+    other = "India"
+
+    [text_system_country_bra]
+    one = "Brazil"
+    other = "Brazil"
+
+    [text_system_country_zaf]
+    one = "South Africa"
+    other = "South Africa"
+
+    [text_system_country_rus]
+    one = "Russia"
+    other = "Russia"
+
+    [text_system_country_twn]
+    one = "Taiwan"
+    other = "Taiwan"
+
+    [text_system_country_isr]
+    one = "Israel"
+    other = "Israel"
+
+    [text_system_country_are]
+    one = "United Arab Emirates"
+    other = "United Arab Emirates"
+
+    [text_system_country_arg]
+    one = "Argentina"
+    other = "Argentina"
+
+    [text_system_country_mys]
+    one = "Malaysia"
+    other = "Malaysia"
+
+    [text_system_country_tha]
+    one = "Thailand"
+    other = "Thailand"
+
+    [text_system_country_sau]
+    one = "Saudi Arabia"
+    other = "Saudi Arabia"
+
+    [text_system_country_idn]
+    one = "Indonesia"
+    other = "Indonesia"
+
+    [text_system_country_pak]
+    one = "Pakistan"
+    other = "Pakistan"
+
+    [text_system_country_nga]
+    one = "Nigeria"
+    other = "Nigeria"
+
+    [text_system_country_egy]
+    one = "Egypt"
+    other = "Egypt"
+
+    [text_system_country_vnm]
+    one = "Vietnam"
+    other = "Vietnam"
+
+    [text_system_country_phl]
+    one = "Philippines"
+    other = "Philippines"
+
+    [text_system_country_col]
+    one = "Colombia"
+    other = "Colombia"
+
+    [text_system_country_chl]
+    one = "Chile"
+    other = "Chile"
+
+    [text_system_country_per]
+    one = "Peru"
+    other = "Peru"
+
+    [text_system_country_dza]
+    one = "Algeria"
+    other = "Algeria"
+
+    [text_system_country_mar]
+    one = "Morocco"
+    other = "Morocco"
+
+    [text_system_country_ken]
+    one = "Kenya"
+    other = "Kenya"
+
+    [text_system_country_ukr]
+    one = "Ukraine"
+    other = "Ukraine"
+
+    [text_system_country_afg]
+    one = "Afghanistan"
+    other = "Afghanistan"
+
+    [text_system_country_eth]
+    one = "Ethiopia"
+    other = "Ethiopia"
+
+    [text_system_country_cod]
+    one = "Democratic Republic of the Congo"
+    other = "Democratic Republic of the Congo"
+
+    [text_system_country_tza]
+    one = "Tanzania"
+    other = "Tanzania"
+
+    [text_system_country_uzb]
+    one = "Uzbekistan"
+    other = "Uzbekistan"
+
+    [text_system_country_ala]
+    one = "Åland Islands"
+    other = "Åland Islands"
+
+    [text_system_country_alb]
+    one = "Albania"
+    other = "Albania"
+
+    [text_system_country_asm]
+    one = "American Samoa"
+    other = "American Samoa"
+
+    [text_system_country_and]
+    one = "Andorra"
+    other = "Andorra"
+
+    [text_system_country_ago]
+    one = "Angola"
+    other = "Angola"
+
+    [text_system_country_aia]
+    one = "Anguilla"
+    other = "Anguilla"
+
+    [text_system_country_ata]
+    one = "Antarctica"
+    other = "Antarctica"
+
+    [text_system_country_atg]
+    one = "Antigua and Barbuda"
+    other = "Antigua and Barbuda"
+
+    [text_system_country_arm]
+    one = "Armenia"
+    other = "Armenia"
+
+    [text_system_country_abw]
+    one = "Aruba"
+    other = "Aruba"
+
+    [text_system_country_aze]
+    one = "Azerbaijan"
+    other = "Azerbaijan"
+
+    [text_system_country_bhs]
+    one = "Bahamas"
+    other = "Bahamas"
+
+    [text_system_country_bhr]
+    one = "Bahrain"
+    other = "Bahrain"
+
+    [text_system_country_bgd]
+    one = "Bangladesh"
+    other = "Bangladesh"
+
+    [text_system_country_brb]
+    one = "Barbados"
+    other = "Barbados"
+
+    [text_system_country_blr]
+    one = "Belarus"
+    other = "Belarus"
+
+    [text_system_country_blz]
+    one = "Belize"
+    other = "Belize"
+
+    [text_system_country_ben]
+    one = "Benin"
+    other = "Benin"
+
+    [text_system_country_bmu]
+    one = "Bermuda"
+    other = "Bermuda"
+
+    [text_system_country_btn]
+    one = "Bhutan"
+    other = "Bhutan"
+
+    [text_system_country_bol]
+    one = "Bolivia"
+    other = "Bolivia"
+
+    [text_system_country_bes]
+    one = "Bonaire, Sint Eustatius and Saba"
+    other = "Bonaire, Sint Eustatius and Saba"
+
+    [text_system_country_bih]
+    one = "Bosnia and Herzegovina"
+    other = "Bosnia and Herzegovina"
+
+    [text_system_country_bwa]
+    one = "Botswana"
+    other = "Botswana"
+
+    [text_system_country_bvt]
+    one = "Bouvet Island"
+    other = "Bouvet Island"
+
+    [text_system_country_iot]
+    one = "British Indian Ocean Territory"
+    other = "British Indian Ocean Territory"
+
+    [text_system_country_brn]
+    one = "Brunei"
+    other = "Brunei"
+
+    [text_system_country_bfa]
+    one = "Burkina Faso"
+    other = "Burkina Faso"
+
+    [text_system_country_bdi]
+    one = "Burundi"
+    other = "Burundi"
+
+    [text_system_country_cpv]
+    one = "Cabo Verde"
+    other = "Cabo Verde"
+
+    [text_system_country_khm]
+    one = "Cambodia"
+    other = "Cambodia"
+
+    [text_system_country_cmr]
+    one = "Cameroon"
+    other = "Cameroon"
+
+    [text_system_country_cym]
+    one = "Cayman Islands"
+    other = "Cayman Islands"
+
+    [text_system_country_caf]
+    one = "Central African Republic"
+    other = "Central African Republic"
+
+    [text_system_country_tcd]
+    one = "Chad"
+    other = "Chad"
+
+    [text_system_country_cxr]
+    one = "Christmas Island"
+    other = "Christmas Island"
+
+    [text_system_country_cck]
+    one = "Cocos (Keeling) Islands"
+    other = "Cocos (Keeling) Islands"
+
+    [text_system_country_com]
+    one = "Comoros"
+    other = "Comoros"
+
+    [text_system_country_cog]
+    one = "Congo"
+    other = "Congo"
+
+    [text_system_country_cok]
+    one = "Cook Islands"
+    other = "Cook Islands"
+
+    [text_system_country_cri]
+    one = "Costa Rica"
+    other = "Costa Rica"
+
+    [text_system_country_civ]
+    one = "Côte d'Ivoire"
+    other = "Côte d'Ivoire"
+
+    [text_system_country_hrv]
+    one = "Croatia"
+    other = "Croatia"
+
+    [text_system_country_cub]
+    one = "Cuba"
+    other = "Cuba"
+
+    [text_system_country_cuw]
+    one = "Curaçao"
+    other = "Curaçao"
+
+    [text_system_country_dji]
+    one = "Djibouti"
+    other = "Djibouti"
+
+    [text_system_country_dma]
+    one = "Dominica"
+    other = "Dominica"
+
+    [text_system_country_dom]
+    one = "Dominican Republic"
+    other = "Dominican Republic"
+
+    [text_system_country_ecu]
+    one = "Ecuador"
+    other = "Ecuador"
+
+    [text_system_country_slv]
+    one = "El Salvador"
+    other = "El Salvador"
+
+    [text_system_country_gnq]
+    one = "Equatorial Guinea"
+    other = "Equatorial Guinea"
+
+    [text_system_country_eri]
+    one = "Eritrea"
+    other = "Eritrea"
+
+    [text_system_country_swz]
+    one = "Eswatini"
+    other = "Eswatini"
+
+    [text_system_country_flk]
+    one = "Falkland Islands"
+    other = "Falkland Islands"
+
+    [text_system_country_fro]
+    one = "Faroe Islands"
+    other = "Faroe Islands"
+
+    [text_system_country_fji]
+    one = "Fiji"
+    other = "Fiji"
+
+    [text_system_country_guf]
+    one = "French Guiana"
+    other = "French Guiana"
+
+    [text_system_country_pyf]
+    one = "French Polynesia"
+    other = "French Polynesia"
+
+    [text_system_country_atf]
+    one = "French Southern Territories"
+    other = "French Southern Territories"
+
+    [text_system_country_gab]
+    one = "Gabon"
+    other = "Gabon"
+
+    [text_system_country_gmb]
+    one = "Gambia"
+    other = "Gambia"
+
+    [text_system_country_geo]
+    one = "Georgia"
+    other = "Georgia"
+
+    [text_system_country_gha]
+    one = "Ghana"
+    other = "Ghana"
+
+    [text_system_country_gib]
+    one = "Gibraltar"
+    other = "Gibraltar"
+
+    [text_system_country_grl]
+    one = "Greenland"
+    other = "Greenland"
+
+    [text_system_country_grd]
+    one = "Grenada"
+    other = "Grenada"
+
+    [text_system_country_glp]
+    one = "Guadeloupe"
+    other = "Guadeloupe"
+
+    [text_system_country_gum]
+    one = "Guam"
+    other = "Guam"
+
+    [text_system_country_gtm]
+    one = "Guatemala"
+    other = "Guatemala"
+
+    [text_system_country_ggy]
+    one = "Guernsey"
+    other = "Guernsey"
+
+    [text_system_country_gin]
+    one = "Guinea"
+    other = "Guinea"
+
+    [text_system_country_gnb]
+    one = "Guinea-Bissau"
+    other = "Guinea-Bissau"
+
+    [text_system_country_guy]
+    one = "Guyana"
+    other = "Guyana"
+
+    [text_system_country_hti]
+    one = "Haiti"
+    other = "Haiti"
+
+    [text_system_country_hmd]
+    one = "Heard Island and McDonald Islands"
+    other = "Heard Island and McDonald Islands"
+
+    [text_system_country_vat]
+    one = "Holy See"
+    other = "Holy See"
+
+    [text_system_country_hnd]
+    one = "Honduras"
+    other = "Honduras"
+
+    [text_system_country_isl]
+    one = "Iceland"
+    other = "Iceland"
+
+    [text_system_country_irn]
+    one = "Iran"
+    other = "Iran"
+
+    [text_system_country_irq]
+    one = "Iraq"
+    other = "Iraq"
+
+    [text_system_country_imn]
+    one = "Isle of Man"
+    other = "Isle of Man"
+
+    [text_system_country_jam]
+    one = "Jamaica"
+    other = "Jamaica"
+
+    [text_system_country_jey]
+    one = "Jersey"
+    other = "Jersey"
+
+    [text_system_country_jor]
+    one = "Jordan"
+    other = "Jordan"
+
+    [text_system_country_kaz]
+    one = "Kazakhstan"
+    other = "Kazakhstan"
+
+    [text_system_country_kir]
+    one = "Kiribati"
+    other = "Kiribati"
+
+    [text_system_country_prk]
+    one = "North Korea"
+    other = "North Korea"
+
+    [text_system_country_kwt]
+    one = "Kuwait"
+    other = "Kuwait"
+
+    [text_system_country_kgz]
+    one = "Kyrgyzstan"
+    other = "Kyrgyzstan"
+
+    [text_system_country_lao]
+    one = "Laos"
+    other = "Laos"
+
+    [text_system_country_lva]
+    one = "Latvia"
+    other = "Latvia"
+
+    [text_system_country_lbn]
+    one = "Lebanon"
+    other = "Lebanon"
+
+    [text_system_country_lso]
+    one = "Lesotho"
+    other = "Lesotho"
+
+    [text_system_country_lbr]
+    one = "Liberia"
+    other = "Liberia"
+
+    [text_system_country_lby]
+    one = "Libya"
+    other = "Libya"
+
+    [text_system_country_lie]
+    one = "Liechtenstein"
+    other = "Liechtenstein"
+
+    [text_system_country_ltu]
+    one = "Lithuania"
+    other = "Lithuania"
+
+    [text_system_country_mac]
+    one = "Macao"
+    other = "Macao"
+
+    [text_system_country_mdg]
+    one = "Madagascar"
+    other = "Madagascar"
+
+    [text_system_country_mwi]
+    one = "Malawi"
+    other = "Malawi"
+
+    [text_system_country_mdv]
+    one = "Maldives"
+    other = "Maldives"
+
+    [text_system_country_mli]
+    one = "Mali"
+    other = "Mali"
+
+    [text_system_country_mhl]
+    one = "Marshall Islands"
+    other = "Marshall Islands"
+
+    [text_system_country_mtq]
+    one = "Martinique"
+    other = "Martinique"
+
+    [text_system_country_mrt]
+    one = "Mauritania"
+    other = "Mauritania"
+
+    [text_system_country_mus]
+    one = "Mauritius"
+    other = "Mauritius"
+
+    [text_system_country_myt]
+    one = "Mayotte"
+    other = "Mayotte"
+
+    [text_system_country_fsm]
+    one = "Micronesia"
+    other = "Micronesia"
+
+    [text_system_country_mda]
+    one = "Moldova"
+    other = "Moldova"
+
+    [text_system_country_mco]
+    one = "Monaco"
+    other = "Monaco"
+
+    [text_system_country_mng]
+    one = "Mongolia"
+    other = "Mongolia"
+
+    [text_system_country_mne]
+    one = "Montenegro"
+    other = "Montenegro"
+
+    [text_system_country_msr]
+    one = "Montserrat"
+    other = "Montserrat"
+
+    [text_system_country_moz]
+    one = "Mozambique"
+    other = "Mozambique"
+
+    [text_system_country_mmr]
+    one = "Myanmar"
+    other = "Myanmar"
+
+    [text_system_country_nam]
+    one = "Namibia"
+    other = "Namibia"
+
+    [text_system_country_nru]
+    one = "Nauru"
+    other = "Nauru"
+
+    [text_system_country_npl]
+    one = "Nepal"
+    other = "Nepal"
+
+    [text_system_country_ncl]
+    one = "New Caledonia"
+    other = "New Caledonia"
+
+    [text_system_country_nic]
+    one = "Nicaragua"
+    other = "Nicaragua"
+
+    [text_system_country_ner]
+    one = "Niger"
+    other = "Niger"
+
+    [text_system_country_niu]
+    one = "Niue"
+    other = "Niue"
+
+    [text_system_country_nfk]
+    one = "Norfolk Island"
+    other = "Norfolk Island"
+
+    [text_system_country_mkd]
+    one = "North Macedonia"
+    other = "North Macedonia"
+
+    [text_system_country_mnp]
+    one = "Northern Mariana Islands"
+    other = "Northern Mariana Islands"
+
+    [text_system_country_omn]
+    one = "Oman"
+    other = "Oman"
+
+    [text_system_country_plw]
+    one = "Palau"
+    other = "Palau"
+
+    [text_system_country_pse]
+    one = "Palestine"
+    other = "Palestine"
+
+    [text_system_country_pan]
+    one = "Panama"
+    other = "Panama"
+
+    [text_system_country_png]
+    one = "Papua New Guinea"
+    other = "Papua New Guinea"
+
+    [text_system_country_pry]
+    one = "Paraguay"
+    other = "Paraguay"
+
+    [text_system_country_pcn]
+    one = "Pitcairn"
+    other = "Pitcairn"
+
+    [text_system_country_pri]
+    one = "Puerto Rico"
+    other = "Puerto Rico"
+
+    [text_system_country_qat]
+    one = "Qatar"
+    other = "Qatar"
+
+    [text_system_country_reu]
+    one = "Réunion"
+    other = "Réunion"
+
+    [text_system_country_rwa]
+    one = "Rwanda"
+    other = "Rwanda"
+
+    [text_system_country_blm]
+    one = "Saint Barthélemy"
+    other = "Saint Barthélemy"
+
+    [text_system_country_shn]
+    one = "Saint Helena, Ascension and Tristan da Cunha"
+    other = "Saint Helena, Ascension and Tristan da Cunha"
+
+    [text_system_country_kna]
+    one = "Saint Kitts and Nevis"
+    other = "Saint Kitts and Nevis"
+
+    [text_system_country_lca]
+    one = "Saint Lucia"
+    other = "Saint Lucia"
+
+    [text_system_country_maf]
+    one = "Saint Martin"
+    other = "Saint Martin"
+
+    [text_system_country_spm]
+    one = "Saint Pierre and Miquelon"
+    other = "Saint Pierre and Miquelon"
+
+    [text_system_country_vct]
+    one = "Saint Vincent and the Grenadines"
+    other = "Saint Vincent and the Grenadines"
+
+    [text_system_country_wsm]
+    one = "Samoa"
+    other = "Samoa"
+
+    [text_system_country_smr]
+    one = "San Marino"
+    other = "San Marino"
+
+    [text_system_country_stp]
+    one = "Sao Tome and Principe"
+    other = "Sao Tome and Principe"
+
+    [text_system_country_sen]
+    one = "Senegal"
+    other = "Senegal"
+
+    [text_system_country_srb]
+    one = "Serbia"
+    other = "Serbia"
+
+    [text_system_country_syc]
+    one = "Seychelles"
+    other = "Seychelles"
+
+    [text_system_country_sle]
+    one = "Sierra Leone"
+    other = "Sierra Leone"
+
+    [text_system_country_sxm]
+    one = "Sint Maarten"
+    other = "Sint Maarten"
+
+    [text_system_country_slb]
+    one = "Solomon Islands"
+    other = "Solomon Islands"
+
+    [text_system_country_som]
+    one = "Somalia"
+    other = "Somalia"
+
+    [text_system_country_sgs]
+    one = "South Georgia and the South Sandwich Islands"
+    other = "South Georgia and the South Sandwich Islands"
+
+    [text_system_country_ssd]
+    one = "South Sudan"
+    other = "South Sudan"
+
+    [text_system_country_lka]
+    one = "Sri Lanka"
+    other = "Sri Lanka"
+
+    [text_system_country_sdn]
+    one = "Sudan"
+    other = "Sudan"
+
+    [text_system_country_sur]
+    one = "Suriname"
+    other = "Suriname"
+
+    [text_system_country_sjm]
+    one = "Svalbard and Jan Mayen"
+    other = "Svalbard and Jan Mayen"
+
+    [text_system_country_syr]
+    one = "Syria"
+    other = "Syria"
+
+    [text_system_country_tjk]
+    one = "Tajikistan"
+    other = "Tajikistan"
+
+    [text_system_country_tls]
+    one = "Timor-Leste"
+    other = "Timor-Leste"
+
+    [text_system_country_tgo]
+    one = "Togo"
+    other = "Togo"
+
+    [text_system_country_tkl]
+    one = "Tokelau"
+    other = "Tokelau"
+
+    [text_system_country_ton]
+    one = "Tonga"
+    other = "Tonga"
+
+    [text_system_country_tto]
+    one = "Trinidad and Tobago"
+    other = "Trinidad and Tobago"
+
+    [text_system_country_tun]
+    one = "Tunisia"
+    other = "Tunisia"
+
+    [text_system_country_tkm]
+    one = "Turkmenistan"
+    other = "Turkmenistan"
+
+    [text_system_country_tca]
+    one = "Turks and Caicos Islands"
+    other = "Turks and Caicos Islands"
+
+    [text_system_country_tuv]
+    one = "Tuvalu"
+    other = "Tuvalu"
+
+    [text_system_country_uga]
+    one = "Uganda"
+    other = "Uganda"
+
+    [text_system_country_umi]
+    one = "United States Minor Outlying Islands"
+    other = "United States Minor Outlying Islands"
+
+    [text_system_country_ury]
+    one = "Uruguay"
+    other = "Uruguay"
+
+    [text_system_country_vut]
+    one = "Vanuatu"
+    other = "Vanuatu"
+
+    [text_system_country_ven]
+    one = "Venezuela"
+    other = "Venezuela"
+
+    [text_system_country_vgb]
+    one = "British Virgin Islands"
+    other = "British Virgin Islands"
+
+    [text_system_country_vir]
+    one = "U.S. Virgin Islands"
+    other = "U.S. Virgin Islands"
+
+    [text_system_country_wlf]
+    one = "Wallis and Futuna"
+    other = "Wallis and Futuna"
+
+    [text_system_country_esh]
+    one = "Western Sahara"
+    other = "Western Sahara"
+
+    [text_system_country_yem]
+    one = "Yemen"
+    other = "Yemen"
+
+    [text_system_country_zmb]
+    one = "Zambia"
+    other = "Zambia"
+
+    [text_system_country_zwe]
+    one = "Zimbabwe"
+    other = "Zimbabwe"

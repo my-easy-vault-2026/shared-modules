@@ -1,0 +1,2951 @@
+# 錯誤碼
+[Code0]
+one = "成功"
+other = "成功"
+
+[Code200]
+one = "成功"
+other = "成功"
+
+[Code10000]
+one = "系统错误"
+other = "系统错误"
+
+[Code10001]
+one = "未知错误"
+other = "未知错误"
+
+[Code10010]
+one = "系统繁忙"
+other = "系统繁忙"
+
+[Code10020]
+one = "请求过多"
+other = "请求过多"
+
+[Code10030]
+one = "数据库错误"
+other = "数据库错误"
+
+[Code10040]
+one = "缓存错误"
+other = "缓存错误"
+
+[Code10050]
+one = "内部 API 错误"
+other = "内部 API 错误"
+
+[Code10051]
+one = "外部 API 错误"
+other = "外部 API 错误"
+
+[Code10060]
+one = "未登录"
+other = "未登录"
+
+[Code10061]
+one = "用户被封禁"
+other = "用户被封禁"
+
+[Code10062]
+one = "用户没有设置 PIN 码"
+other = "用户没有设置 PIN 码"
+
+[Code10063]
+one = "用户已设置 PIN 码"
+other = "用户已设置 PIN 码"
+
+[Code10070]
+one = "签名无效"
+other = "签名无效"
+
+[Code10080]
+one = "数据不存在"
+other = "数据不存在"
+
+[Code10081]
+one = "数据已存在"
+other = "数据已存在"
+
+[Code10090]
+one = "请求体格式无效"
+other = "请求体格式无效"
+
+[Code10100]
+one = "请求头格式无效"
+other = "请求头格式无效"
+
+[Code10110]
+one = "交易失败"
+other = "交易失败"
+
+[Code10111]
+one = "无此交易类型"
+other = "无此交易类型"
+
+[Code10112]
+one = "添加资产失败"
+other = "添加资产失败"
+
+[Code10113]
+one = "扣减资产失败"
+other = "扣减资产失败"
+
+[Code10114]
+one = "冻结资产失败"
+other = "冻结资产失败"
+
+[Code10115]
+one = "解冻资产失败"
+other = "解冻资产失败"
+
+[Code10116]
+one = "增加冻结资产失败"
+other = "增加冻结资产失败"
+
+[Code10117]
+one = "扣减冻结资产失败"
+other = "扣减冻结资产失败"
+
+[Code10130]
+one = "无此货币"
+other = "无此货币"
+
+[Code10140]
+one = "数据格式错误"
+other = "数据格式错误"
+
+[Code10150]
+one = "参数无效"
+other = "参数无效"
+
+[Code10160]
+one = "未实现"
+other = "未实现"
+
+[Code10170]
+one = "无权限"
+other = "无权限"
+
+[Code10180]
+one = "缓存写入失败"
+other = "缓存写入失败"
+
+[Code10181]
+one = "缓存读取失败"
+other = "缓存读取失败"
+
+[Code10182]
+one = "缓存更新失败"
+other = "缓存更新失败"
+
+[Code10183]
+one = "缓存删除失败"
+other = "缓存删除失败"
+
+[Code10184]
+one = "缓存过期失败"
+other = "缓存过期失败"
+
+[Code10190]
+one = "缺少参数"
+other = "缺少参数"
+
+[Code10200]
+one = "缺少参数"
+other = "缺少参数"
+
+[Code10213]
+one = "驗證簽名失敗"
+other = "驗證簽名失敗"
+
+[Code10240]
+one = "请稍后重试"
+other = "请稍后重试"
+
+[Code10250]
+one = "页面大小超过允许的最大限制"
+other = "页面大小超过允许的最大限制"
+
+[Code10260]
+one = "記憶體不足"
+other = "記憶體不足"
+
+[Code10000010]
+one = "用户不存在"
+other = "用户不存在"
+
+[Code10000020]
+one = "用户已设置 PIN 码"
+other = "用户已设置 PIN 码"
+
+[Code10000030]
+one = "用户 PIN 码确认失败"
+other = "用户 PIN 码确认失败"
+
+[Code10000040]
+one = "PIN 码格式无效"
+other = "PIN 码格式无效"
+
+[Code10000050]
+one = "未上传 KYC 信息"
+other = "未上传 KYC 信息"
+
+[Code10000060]
+one = "重复的 KYC"
+other = "重复的 KYC"
+
+[Code10000070]
+one = "未检测到人脸"
+other = "未检测到人脸"
+
+[Code10000080]
+one = "账户因资产余额无法注销"
+other = "账户因资产余额无法注销"
+
+[Code20000010]
+one = "邮箱或 OTP 错误"
+other = "邮箱或 OTP 错误"
+
+[Code20000020]
+one = "重试超过 5 次，请 10 分钟后再试"
+other = "重试超过 5 次，请 10 分钟后再试"
+
+[Code30000010]
+one = "PIN 码错误"
+other = "PIN 码错误"
+
+[Code30000020]
+one = "无此资产类别"
+other = "无此资产类别"
+
+[Code30000030]
+one = "无此资产"
+other = "无此资产"
+
+[Code30000040]
+one = "资产已存在"
+other = "资产已存在"
+
+[Code30000041]
+one = "资产不存在"
+other = "资产不存在"
+
+[Code30000050]
+one = "激活存款不足"
+other = "激活存款不足"
+
+[Code30000060]
+one = "申请已过期"
+other = "申请已过期"
+
+[Code30000070]
+one = "资金不足"
+other = "资金不足"
+
+[Code30000080]
+one = "卡已存款"
+other = "卡已存款"
+
+[Code30000081]
+one = "卡已创建"
+other = "卡已创建"
+
+[Code30000082]
+one = "卡已激活"
+other = "卡已激活"
+
+[Code30000083]
+one = "卡已拥有 PAN"
+other = "卡已拥有 PAN"
+
+[Code30000090]
+one = "不支持从卡存款"
+other = "不支持从卡存款"
+
+[Code30000100]
+one = "KYC 等级不足"
+other = "KYC 等级不足"
+
+[Code30000110]
+one = "无此卡资产"
+other = "无此卡资产"
+
+[Code30000120]
+one = "无此卡"
+other = "无此卡"
+
+[Code30000130]
+one = "钱包和资产不匹配"
+other = "钱包和资产不匹配"
+
+[Code30000140]
+one = "卡已存在"
+other = "卡已存在"
+
+[Code30000150]
+one = "无此申请优惠"
+other = "无此申请优惠"
+
+[Code30000160]
+one = "卡状态异常"
+other = "卡状态异常"
+
+[Code30000170]
+one = "无此货币"
+other = "无此货币"
+
+[Code30000180]
+one = "未通过 KYC"
+other = "未通过 KYC"
+
+[Code30000190]
+one = "未找到用户信息"
+other = "未找到用户信息"
+
+[Code30000200]
+one = "用户信息不完整"
+other = "用户信息不完整"
+
+[Code30000210]
+one = "地址信息不完整"
+other = "地址信息不完整"
+
+[Code30000220]
+one = "创建卡失败"
+other = "创建卡失败"
+
+[Code30000240]
+one = "商户不可使用此类型"
+other = "商户不可使用此类型"
+
+[Code30000251]
+one = "此卡未开放申请"
+other = "此卡未开放申请"
+
+[Code40000010]
+one = "无此资产"
+other = "无此资产"
+
+[Code40000020]
+one = "目标无效"
+other = "目标无效"
+
+[Code40000030]
+one = "交易类型无效"
+other = "交易类型无效"
+
+[Code50000010]
+one = "无此钱包"
+other = "无此钱包"
+
+[Code50000020]
+one = "无此钱包地址"
+other = "无此钱包地址"
+
+[Code50000030]
+one = "无此主网"
+other = "无此主网"
+
+[Code50000040]
+one = "无此协议"
+other = "无此协议"
+
+[Code50000050]
+one = "无此货币"
+other = "无此货币"
+
+[Code50000060]
+one = "无此类别"
+other = "无此类别"
+
+[Code50000070]
+one = "类别无效"
+other = "类别无效"
+
+[Code50000080]
+one = "钱包已存在"
+other = "钱包已存在"
+
+[Code50000090]
+one = "无此标识"
+other = "无此标识"
+
+[Code50000100]
+one = "货币主网不支持"
+other = "货币主网不支持"
+
+[Code50000110]
+one = "地址池为空"
+other = "地址池为空"
+
+[Code60000010]
+one = "无此货币"
+other = "无此货币"
+
+[Code60000020]
+one = "无此用途"
+other = "无此用途"
+
+[Code70000010]
+one = "无此参数"
+other = "无此参数"
+
+[Code80000010]
+one = "无此货币"
+other = "无此货币"
+
+[Code80000020]
+one = "无此卡"
+other = "无此卡"
+
+[Code80000030]
+one = "目标无效"
+other = "目标无效"
+
+[Code80000040]
+one = "兑换已处理"
+other = "兑换已处理"
+
+[Code80000050]
+one = "资金不足"
+other = "资金不足"
+
+[Code80000060]
+one = "类别无效"
+other = "类别无效"
+
+[Code80000070]
+one = "钱包已存在"
+other = "钱包已存在"
+
+[Code80000080]
+one = "来源卡被冻结"
+other = "来源卡被冻结"
+
+[Code80000081]
+one = "目标卡被冻结"
+other = "目标卡被冻结"
+
+[Code80000090]
+one = "无效资产"
+other = "无效资产"
+
+[Code80000100]
+one = "无此用户"
+other = "无此用户"
+
+[Code80000120]
+one = "金额过高"
+other = "金额过高"
+
+[Code90000010]
+one = "无此卡"
+other = "无此卡"
+
+[Code90000020]
+one = "资金不足"
+other = "资金不足"
+
+[Code90000030]
+one = "货币无效"
+other = "货币无效"
+
+[Code90000040]
+one = "无此交易"
+other = "无此交易"
+
+[Code90000050]
+one = "交易已处理"
+other = "交易已处理"
+
+[Code90000051]
+one = "交易已撤销"
+other = "交易已撤销"
+
+[Code90000052]
+one = "交易已拒绝"
+other = "交易已拒绝"
+
+[Code90000070]
+one = "金额不匹配"
+other = "金额不匹配"
+
+[Code90000080]
+one = "数据丢失"
+other = "数据丢失"
+
+[Code90000090]
+one = "异常交易"
+other = "异常交易"
+
+[Code90000100]
+one = "资产未冻结"
+other = "资产未冻结"
+
+[Code90000110]
+one = "未找到 3ds 通知"
+other = "未找到 3ds 通知"
+
+[Code90000120]
+one = "PIN 码错误"
+other = "PIN 码错误"
+
+[Code100000010]
+one = "无此类别"
+other = "无此类别"
+
+[Code100000020]
+one = "用户无此卡"
+other = "用户无此卡"
+
+[Code100000030]
+one = "用户无此订单"
+other = "用户无此订单"
+
+[Code110000010]
+one = "无此优惠码"
+other = "无此优惠码"
+
+[Code110000020]
+one = "优惠码不适用"
+other = "优惠码不适用"
+
+[Code110000030]
+one = "无此货币"
+other = "无此货币"
+
+[Code110000040]
+one = "折扣码已达上限，请稍候再试"
+other = "折扣码已达上限，请稍候再试"
+
+[Code110000050]
+one = "推薦碼已存在"
+other = "推薦碼已存在"
+
+[Code120000000]
+one = "国家代码应为数字"
+other = "国家代码应为数字"
+
+[Code130000010]
+one = "无此卡"
+other = "无此卡"
+
+[Code130000020]
+one = "充值目标无效"
+other = "充值目标无效"
+
+[Code130000030]
+one = "PIN 码错误"
+other = "PIN 码错误"
+
+[Code130000060]
+one = "充值已过期"
+other = "充值已过期"
+
+[Code130000070]
+one = "资金不足"
+other = "资金不足"
+
+[Code130000080]
+one = "充值已处理"
+other = "充值已处理"
+
+[Code130000090]
+one = "来源卡被冻结"
+other = "来源卡被冻结"
+
+[Code130000091]
+one = "目标卡被冻结"
+other = "目标卡被冻结"
+
+[Code130000092]
+one = "来源卡片已封锁"
+other = "来源卡片已封锁"
+
+[Code130000093]
+one = "目标卡片已封锁"
+other = "目标卡片已封锁"
+
+[Code130000100]
+one = "无此用户"
+other = "无此用户"
+
+[Code130000110]
+one = "金额过低"
+other = "金额过低"
+
+[Code130000150]
+one = "金额过低 最低额度为200USD"
+other = "金额过低 最低额度为200USD"
+
+[Code130000120]
+one = "金额过高"
+other = "金额过高"
+
+[Code140000010]
+one = "无此卡"
+other = "无此卡"
+
+[Code140000020]
+one = "转账目标无效"
+other = "转账目标无效"
+
+[Code140000030]
+one = "PIN 码错误"
+other = "PIN 码错误"
+
+[Code140000060]
+one = "转账已过期"
+other = "转账已过期"
+
+[Code140000070]
+one = "资金不足"
+other = "资金不足"
+
+[Code140000080]
+one = "转账已处理"
+other = "转账已处理"
+
+[Code140000090]
+one = "无此用户"
+other = "无此用户"
+
+[Code140000100]
+one = "无此资产类别"
+other = "无此资产类别"
+
+[Code140000110]
+one = "无此货币"
+other = "无此货币"
+
+[Code140000120]
+one = "钱包已存在"
+other = "钱包已存在"
+
+[Code140000130]
+one = "资产类别无效"
+other = "资产类别无效"
+
+[Code140000140]
+one = "无此地址"
+other = "无此地址"
+
+[Code140000150]
+one = "来源卡被冻结"
+other = "来源卡被冻结"
+
+[Code140000151]
+one = "目标卡被冻结"
+other = "目标卡被冻结"
+
+[Code140000180]
+one = "金额过低"
+other = "金额过低"
+
+[Code140000190]
+one = "金额过高"
+other = "金额过高"
+
+[Code140000240]
+one = "来源卡已被封锁"
+other = "来源卡已被封锁"
+
+[Code140000250]
+one = "目标卡已被封锁"
+other = "目标卡已被封锁"
+
+[Code140000260]
+one = "目标用户已已被封锁"
+other = "目标用户已已被封锁"
+
+[Code140000270]
+one ="来源用户已被封锁"
+other ="来源用户已被封锁"
+
+[Code190000240]
+one ="来源用户已被封锁"
+other ="来源用户已被封锁"
+
+[Code90000203]
+one = "无效的原因代码"
+other = "无效的原因代码"
+
+[Code150000010]
+one = "无此卡"
+other = "无此卡"
+
+[Code150000020]
+one = "下行目标无效"
+other = "下行目标无效"
+
+[Code150000030]
+one = "PIN 码错误"
+other = "PIN 码错误"
+
+[Code150000060]
+one = "下行已过期"
+other = "下行已过期"
+
+[Code150000070]
+one = "资金不足"
+other = "资金不足"
+
+[Code150000080]
+one = "下行已处理"
+other = "下行已处理"
+
+[Code150000090]
+one = "来源卡被冻结"
+other = "来源卡被冻结"
+
+[Code150000091]
+one = "目标卡被冻结"
+other = "目标卡被冻结"
+
+[Code150000092]
+one = "来源卡片已锁定"
+other = "来源卡片已锁定"
+
+[Code150000093]
+one = "目标卡片已锁定"
+other = "目标卡片已锁定"
+
+[Code150000110]
+one = "金额过低"
+other = "金额过低"
+
+[Code150000130]
+one = "金额过低 最低额度为200USD"
+other = "金额过低 最低额度为200USD"
+
+[Code150000120]
+one = "金额过高"
+other = "金额过高"
+
+[Code160000010]
+one = "无此卡"
+other = "无此卡"
+
+[Code160000020]
+one = "资金不足"
+other = "资金不足"
+
+[Code160000030]
+one = "无此主网"
+other = "无此主网"
+
+[Code160000040]
+one = "无此协议"
+other = "无此协议"
+
+[Code160000050]
+one = "主网和协议不支持"
+other = "主网和协议不支持"
+
+[Code160000060]
+one = "提现已处理"
+other = "提现已处理"
+
+[Code160000070]
+one = "无提现签名身份"
+other = "无提现签名身份"
+
+[Code160000080]
+one = "签名无效"
+other = "签名无效"
+
+[Code160000090]
+one = "来源卡被冻结"
+other = "来源卡被冻结"
+
+[Code160000100]
+one = "无此类别"
+other = "无此类别"
+
+[Code160000110]
+one = "无此用户"
+other = "无此用户"
+
+[Code160000120]
+one = "不支持提现"
+other = "不支持提现"
+
+[Code160000130]
+one = "PIN 码错误"
+other = "PIN 码错误"
+
+[Code160000140]
+one = "提现已过期"
+other = "提现已过期"
+
+[Code160000150]
+one = "渠道无效"
+other = "渠道无效"
+
+[Code160000160]
+one = "金额低于手续费"
+other = "金额低于手续费"
+
+[Code160000170]
+one = "金额过低"
+other = "金额过低"
+
+[Code160000180]
+one = "金额过高"
+other = "金额过高"
+
+[Code160000190]
+one = "来源用户已被封锁"
+other = "来源用户已被封锁"
+
+[Code160000200]
+one = "来源卡已被封锁"
+other = "来源卡已被封锁"
+
+[Code170000010]
+one = "用户已存在"
+other = "用户已存在"
+
+[Code170000020]
+one = "无效的管理员级别"
+other = "无效的管理员级别"
+
+[Code180000010]
+one = "无此订单"
+other = "无此订单"
+
+[Code180000020]
+one = "无此主网"
+other = "无此主网"
+
+[Code180000030]
+one = "无区分大小写数据"
+other = "无区分大小写数据"
+
+[Code190000010]
+one = "无此卡"
+other = "无此卡"
+
+[Code190000020]
+one = "充值接收者无效"
+other = "充值接收者无效"
+
+[Code190000030]
+one = "PIN 码错误"
+other = "PIN 码错误"
+
+[Code190000060]
+one = "转账已过期"
+other = "转账已过期"
+
+[Code190000070]
+one = "资金不足"
+other = "资金不足"
+
+[Code190000080]
+one = "转账已处理"
+other = "转账已处理"
+
+[Code190000090]
+one = "无此用户"
+other = "无此用户"
+
+[Code190000100]
+one = "无此资产类型"
+other = "无此资产类型"
+
+[Code190000110]
+one = "无此货币"
+other = "无此货币"
+
+[Code190000120]
+one = "钱包已存在"
+other = "钱包已存在"
+
+[Code190000130]
+one = "资产类型无效"
+other = "资产类型无效"
+
+[Code190000140]
+one = "无此地址"
+other = "无此地址"
+
+[Code190000150]
+one = "来源卡被冻结"
+other = "来源卡被冻结"
+
+[Code190000151]
+one = "目标卡被冻结"
+other = "目标卡被冻结"
+
+[Code190000160]
+one = "接收者无此卡"
+other = "接收者无此卡"
+
+[Code190000180]
+one = "金额过低"
+other = "金额过低"
+
+[Code190000190]
+one = "金额过高"
+other = "金额过高"
+
+[Code190000200]
+one ="来源用户已被封锁"
+other ="来源用户已被封锁"
+
+[Code190000210]
+one ="目标用户已已被封锁"
+other ="目标用户已已被封锁"
+
+[Code190000220]
+one = "来源卡已被封锁"
+other = "来源卡已被封锁"
+
+[Code190000230]
+one ="目标卡已被封锁"
+other ="目标卡已被封锁"
+
+[Code10000090]
+one = "超出每月限额"
+other = "超出每月限额"
+
+[Code20000050]
+one = "发起的验证不存在"
+other = "发起的验证请求已存在"
+
+[Code20000060]
+one = "发起的验证不存在"
+other = "发起的验证请求已存在"
+
+[Code20000080]
+one = "该账户已设置了通行密钥。请在支持通行密钥的设备上继续。如果设备丢失，请按照密钥替换流程进行操作。"
+other = "该账户已设置了通行密钥。请在支持通行密钥的设备上继续。如果设备丢失，请按照密钥替换流程进行操作。"
+
+[Code20000090]
+one = "当前设备无法删除。"
+other = "当前设备无法删除。"
+
+[Code20000100]
+one = "无法删除主设备。"
+other = "无法删除主设备。"
+
+[Code20000030]
+one = "Token过期"
+other = "Token过期"
+
+[Code20000040]
+one = "管理员不存在"
+other = "管理员不存在"
+
+[Code20000070]
+one = "验证失败"
+other = "验证失败"
+
+[Code20000130]
+one = "代理不存在"
+other = "代理不存在"
+
+[Code20000140]
+one = "解锁失败 第{$ATTEMPT}次尝试"
+other = "解锁失败 第{$ATTEMPT}次尝试"
+
+[Code20000141]
+one = "解锁失败，超出上限，请重新登录。"
+other = "解锁失败，超出上限，请重新登录。"
+
+[Code10000100]
+one = "电话号码错误"
+other = "电话号码错误"
+
+[Code10000110]
+one = "超出每日限额"
+other = "超出每日限额"
+
+[Code10000120]
+one = "超出每日使用限额"
+other = "超出每日使用限额"
+
+[Code10000130]
+one = "超出每月使用限额"
+other = "超出每月使用限额"
+
+[Code60000030]
+one = "无法获取汇率"
+other = "无法获取汇率"
+
+[Code10000160]
+one = "超出每笔交易限额"
+other = "超出每笔交易限额"
+
+[Code10000190]
+one = "您的账户存在高风险行为，请联系我方客服解除限制"
+other = "您的账户存在高风险行为，请联系我方客服解除限制"
+
+[Code30000270]
+one = "请将资金提出再执行删卡操作"
+other = "请将资金提出再执行删卡操作"
+
+[Code30000280]
+one = "无效的资产类型"
+other = "无效的资产类型"
+
+[Code30000290]
+one = "商户未设置默认开卡种类"
+other = "商户未设置默认开卡种类"
+
+[Code30000400]
+one = "仍有资金流程未完成"
+other = "仍有资金流程未完成"
+
+[Code30000420]
+one = "您的卡片目前处于blocked状态，请联系客服解决"
+other = "您的卡片目前处于blocked状态，请联系客服解决"
+
+[Code30000430]
+one = "无法使用此卡片付款，请选择其他卡片"
+other = "无法使用此卡片付款，请选择其他卡片"
+
+[Code10210]
+one = "加密失败"
+other = "加密失败"
+
+[Code10211]
+one = "解密失败"
+other = "解密失败"
+
+[Code10212]
+one = "签名失败"
+other = "签名失败"
+
+[Code10220]
+one = "非法操作"
+other = "非法操作"
+
+[Code10000170]
+one = "设定额度不可超过上限"
+other = "设定额度不可超过上限"
+
+[Code10000210]
+one = "生日填写不正确"
+other = "生日填写不正确"
+
+[Code10000220]
+one = "名字超过27个字符，请修改姓名后重试"
+other = "名字超过27个字符，请修改姓名后重试"
+
+[Code10000230]
+one = "名字或姓氏超过 20 个字符。请修改后再试一次"
+other = "名字或姓氏超过 20 个字符。请修改后再试一次"
+
+[Code20000110]
+one = "reap签名过期"
+other = "reap签名过期"
+
+[Code20000120]
+one = "reap签名不正确"
+other = "reap签名不正确"
+
+[Code30000260]
+one = "无此商户"
+other = "无此商户"
+
+[Code30000330]
+one = "不可运送"
+other = "不可运送"
+
+[Code30000340]
+one = "reap运送失败"
+other = "reap运送失败"
+
+[Code30000350]
+one = "reap获取运送单号失败"
+other = "reap获取运送单号失败"
+
+[Code30000360]
+one = "reap激活卡片失败"
+other = "reap激活卡片失败"
+
+[Code30000370]
+one = "运送失败"
+other = "运送失败"
+
+[Code30000380]
+one = "无效的国码"
+other = "无效的国码"
+
+[Code30000390]
+one = "卡号或激活码不符"
+other = "卡号或激活码不符"
+
+[Code40000040]
+one = "无此商户"
+other = "无此商户"
+
+[Code40000050]
+one = "无此用户"
+other = "无此用户"
+
+[Code50000120]
+one = "不支持的主网络与协议"
+other = "不支持的主网络与协议"
+
+[Code50000130]
+one = "不可接收"
+other = "不可接收"
+
+[Code80000110]
+one = "无此商户"
+other = "无此商户"
+
+[Code90000130]
+one = "无此商户"
+other = "无此商户"
+
+[Code90000300]
+one = "授权失败，请稍后再试。"
+other = "授权失败，请稍后再试。"
+
+[Code90000301]
+one = "商户未设置接受此类型的卡。请尝试其他支付方式。"
+other = "商户未设置接受此类型的卡。请尝试其他支付方式。"
+
+[Code90000302]
+one = "交易因“不予承兑”而被拒绝。"
+other = "交易因“不予承兑”而被拒绝。"
+
+[Code90000303]
+one = "此卡已被挂失。"
+other = "此卡已被挂失。"
+
+[Code90000304]
+one = "此卡已失效。"
+other = "此卡已失效。"
+
+[Code90000305]
+one = "余额不足，无法完成交易。请充值或更换支付方式。"
+other = "余额不足，无法完成交易。请充值或更换支付方式。"
+
+[Code90000306]
+one = "此卡已过期。请使用有效卡片。"
+other = "此卡已过期。请使用有效卡片。"
+
+[Code90000307]
+one = "输入的 PIN 码错误。请重试。"
+other = "输入的 PIN 码错误。请重试。"
+
+[Code90000308]
+one = "处理交易时出错。请联系 Reap 客服。"
+other = "处理交易时出错。请联系 Reap 客服。"
+
+[Code90000309]
+one = "此销售点不允许该交易。"
+other = "此销售点不允许该交易。"
+
+[Code90000310]
+one = "处理交易时出错。请联系 Reap 客服。"
+other = "处理交易时出错。请联系 Reap 客服。"
+
+[Code90000311]
+one = "您已超过ATM取款限额。请尝试较小金额或等待限额重置。"
+other = "您已超过ATM取款限额。请尝试较小金额或等待限额重置。"
+
+[Code90000312]
+one = "此国家不允许使用此卡取款。"
+other = "此国家不允许使用此卡取款。"
+
+[Code90000313]
+one = "您已超过允许的取款次数。请稍后再试。"
+other = "您已超过允许的取款次数。请稍后再试。"
+
+[Code90000314]
+one = "卡片状态异常。请联系 Reap。"
+other = "卡片状态异常。请联系 Reap。"
+
+[Code90000315]
+one = "由于超过错误取款密码次数，卡片已被锁定。"
+other = "由于超过错误取款密码次数，卡片已被锁定。"
+
+[Code90000316]
+one = "Reap 确实接受此商户类别的交易。"
+other = "Reap 确实接受此商户类别的交易。"
+
+[Code90000317]
+one = "交易处理时间过长，请再试一次。"
+other = "交易处理时间过长，请再试一次。"
+
+[Code90000318]
+one = "系统无法验证您的密码，可能因技术问题或输入错误，交易无法完成。"
+other = "系统无法验证您的密码，可能因技术问题或输入错误，交易无法完成。"
+
+[Code90000319]
+one = "发卡方或交换系统无法运行。"
+other = "发卡方或交换系统无法运行。"
+
+[Code90000320]
+one = "支付系统的交易记录存在不一致。"
+other = "支付系统的交易记录存在不一致。"
+
+[Code90000321]
+one = "在支付完全处理前发生了意外错误。"
+other = "在支付完全处理前发生了意外错误。"
+
+[Code90000322]
+one = "处理交易时出现问题。请联系 Reap 获取支持。"
+other = "处理交易时出现问题。请联系 Reap 获取支持。"
+
+[Code90000323]
+one = "输入的 CVV 不正确。请检查后重试。"
+other = "输入的 CVV 不正确。请检查后重试。"
+
+[Code90000324]
+one = "提供的资料验证失败。请确认后再试。"
+other = "提供的资料验证失败。请确认后再试。"
+
+[Code90000325]
+one = "卡片已冻结。请联系您的账户管理员。"
+other = "卡片已冻结。请联系您的账户管理员。"
+
+[Code90000326]
+one = "由于多次输入错误的 CVV，此卡已被锁定。"
+other = "由于多次输入错误的 CVV，此卡已被锁定。"
+
+[Code90000327]
+one = "卡片因多次输入错误的到期日而被锁定。"
+other = "卡片因多次输入错误的到期日而被锁定。"
+
+[Code90000328]
+one = "卡片尚未启用。请通过 Reap 移动应用或 Reap 控制台启用。"
+other = "卡片尚未启用。请通过 Reap 移动应用或 Reap 控制台启用。"
+
+[Code90000329]
+one = "此卡不允许提款。"
+other = "此卡不允许提款。"
+
+[Code90000330]
+one = "此卡的每日消费上限已超出。请联系管理员申请提高限额。"
+other = "此卡的每日消费上限已超出。请联系管理员申请提高限额。"
+
+[Code90000331]
+one = "此卡的消费频率已超出允许范围。请联系管理员。"
+other = "此卡的消费频率已超出允许范围。请联系管理员。"
+
+[Code90000332]
+one = "卡片已被锁定。"
+other = "卡片已被锁定。"
+
+[Code90000333]
+one = "此卡余额不足，无法完成此商户类别的交易。请充值。"
+other = "此卡余额不足，无法完成此商户类别的交易。请充值。"
+
+[Code90000334]
+one = "与此卡关联的预算资金不足。请联系管理员增加预算。"
+other = "与此卡关联的预算资金不足。请联系管理员增加预算。"
+
+[Code90000335]
+one = "与此卡关联的预算已被冻结。请联系 Reap。"
+other = "与此卡关联的预算已被冻结。请联系 Reap。"
+
+[Code90000336]
+one = "系统检测到资金异常，请联系运营团队协助处理。"
+other = "系统检测到资金异常，请联系运营团队协助处理。"
+
+[Code140000170]
+one = "转账给自己"
+other = "转账给自己"
+
+[Code200000010]
+one = "无此api密钥"
+other = "无此api密钥"
+
+[Code200000020]
+one = "无此用户"
+other = "无此用户"
+
+[Code200000030]
+one = "无效的用户角色"
+other = "无效的用户角色"
+
+[Code200000040]
+one = "商户已注册"
+other = "商户已注册"
+
+[Code200000050]
+one = "管理员非属于商户"
+other = "管理员非属于商户"
+
+[Code200000060]
+one = "无此资产类别"
+other = "无此资产类别"
+
+[Code200000070]
+one = "无此币种"
+other = "无此币种"
+
+[Code200000080]
+one = "无效的资产类别"
+other = "无效的资产类别"
+
+[Code200000090]
+one = "无此卡片"
+other = "无此卡片"
+
+[Code200000100]
+one = "3ds通知未找到"
+other = "3ds通知未找到"
+
+[Code200000110]
+one = "资产不为空"
+other = "资产不为空"
+
+[Code200000120]
+one = "管理员权限不足"
+other = "管理员权限不足"
+
+[Code200000130]
+one = "无此商户"
+other = "无此商户"
+
+[Code200000140]
+one = "无效的预设资产类型"
+other = "无效的预设资产类型"
+
+[Code90000140]
+one = "单笔交易超出限额"
+other = "单笔交易超出限额"
+
+[Code90000150]
+one = "当日交易总额超出限额"
+other = "当日交易总额超出限额"
+
+[Code90000160]
+one = "当日交易次数已达上限"
+other = "当日交易次数已达上限"
+
+[Code90000170]
+one = "当月交易次数已达上限"
+other = "当月交易次数已达上限"
+
+[Code90000180]
+one = "当月交易总额超出限额"
+other = "当月交易总额超出限额"
+
+[Code90000190]
+one = "余额不足"
+other = "余额不足"
+
+[Code10230]
+one ="APP版本过低，请更新至最新版本APP"
+other ="APP版本过低，请更新至最新版本APP"
+
+[Code30000410]
+one ="更新PIN码失败"
+other ="更新PIN码失败"
+
+[Code90000200]
+one ="无效的PIN码格式，请重设PIN码"
+other ="无效的PIN码格式，请重设PIN码"
+
+[Code90000201]
+one ="超过2个相同数字，请重设PIN码"
+other ="超过2个相同数字，请重设PIN码"
+
+[Code90000202]
+one ="超过2个连续数字，请重设PIN码"
+other ="超过2个连续数字，请重设PIN码"
+
+[Code250000030]
+one = "兑换商品缺货"
+other = "兑换商品缺货"
+
+[Code250000040]
+one = "余额不足"
+other = "余额不足"
+
+[Code250000050]
+one = "商品过期"
+other = "商品过期"
+
+[Code230000010]
+one = "无此卡片"
+other = "无此卡片"
+
+[Code230000020]
+one = "商户资产余额不足"
+other = "商户资产余额不足"
+
+[Code230000030]
+one = "用户资产余额不足"
+other = "用户资产余额不足"
+
+[Code230000040]
+one = "卡片冻结"
+other = "卡片冻结"
+
+[Code230000050]
+one = "余额不一致"
+other = "余额不一致"
+
+[Code230000060]
+one = "不支持余额扣除"
+other = "不支持余额扣除"
+
+[Code200000190]
+one = "email已被使用"
+other = "email已被使用"
+
+[Code200000210]
+one = "资金不足"
+other = "资金不足"
+
+[Code210000010]
+one = "无此卡片"
+other = "无此卡片"
+
+[Code210000020]
+one = "无通过的KYC"
+other = "无通过的KYC"
+
+[Code210000030]
+one = "不支持的证件类型"
+other = "不支持的证件类型"
+
+[Code210000040]
+one = "无此类别"
+other = "无此类别"
+
+[Code210000050]
+one = "金额过低"
+other = "金额过低"
+
+[Code210000060]
+one = "金额过高"
+other = "金额过高"
+
+[Code210000070]
+one = "无效的名称格式"
+other = "无效的名称格式"
+
+[Code210000080]
+one = "存在未完成订单"
+other = "存在未完成订单"
+
+[Code210000090]
+one = "KYC等级不足"
+other = "KYC等级不足"
+
+[Code270000010]
+one = "目前该货币对无法交易，请稍候再试"
+other = "目前该货币对无法交易，请稍候再试"
+
+[Code260000010]
+one = "无此资产类型"
+other = "无此资产类型"
+
+[Code260000020]
+one = "无效的资产类型"
+other = "无效的资产类型"
+
+[Code260000030]
+one = "无效的币种"
+other = "无效的币种"
+
+[Code260000040]
+one = "卡片不存在"
+other = "卡片不存在"
+
+[Code260000050]
+one = "无效的对象"
+other = "无效的对象"
+
+[Code260000060]
+one = "理财产品未开启"
+other = "理财产品未开启"
+
+[Code280000050]
+one = "卡片状态未激活"
+other = "卡片状态未激活"
+
+[Code280000060]
+one = "该卡为美国地区发行的卡片，应监管要求，您账单地址必须为美国地区，请将账单地址填写为美国地区地址再开卡。"
+other = "该卡为美国地区发行的卡片，应监管要求，您账单地址必须为美国地区，请将账单地址填写为美国地区地址再开卡。"
+
+[Code280000070]
+one = "避免在地址中使用 [ #, . “ : / ? ] 等特殊字符。"
+other = "避免在地址中使用 [ #, . “ : / ? ] 等特殊字符。"
+
+[Code280000080]
+one = "卡片解冻失败"
+other = "卡片解冻失败"
+
+[Code290000010]
+one = "公告格式錯誤"
+other = "公告格式錯誤"
+
+[Code290000020]
+one = "時間格式錯誤"
+other = "時間格式錯誤"
+
+[Code290000030]
+one = "訊息已經存在"
+other = "訊息已經存在"
+
+[Code290000040]
+one = "訊息格式錯誤"
+other = "訊息格式錯誤"
+
+[Code290000050]
+one = "訊息長度限制"
+other = "訊息長度限制"
+
+[Code30000440]
+one = "需要KYC等级1"
+other = "需要KYC等级1"
+
+[Code30000450]
+one = "需要KYC等级2"
+other = "需要KYC等级2"
+
+[Code30000460]
+one = "需要KYC等级3"
+other = "需要KYC等级3"
+
+[Code300000010]
+one = "请重新申请KYC，补足缺漏资料"
+other = "请重新申请KYC，补足缺漏资料"
+
+[Code300000020]
+one = "开卡KYC失败"
+other = "开卡KYC失败"
+
+[Code300000030]
+one = "请等待KYC审核，稍候五分钟再试"
+other = "请等待KYC审核，稍候五分钟再试"
+
+[Code300000040]
+one = "超过申请上限"
+other = "超过申请上限"
+
+[Code300000050]
+one = "KYC尚未完成"
+other = "KYC尚未完成"
+
+[Code300000060]
+one = "不支持的证件类型"
+other = "不支持的证件类型"
+
+[Code300000070]
+one = "启用卡片失败"
+other = "启用卡片失败"
+
+[Code300000080]
+one = "实体卡库存不足"
+other = "实体卡库存不足"
+
+[Code300000090]
+one = "支付PIN长度必须为4位数字。"
+other = "支付PIN长度必须为4位数字。"
+
+[Code300000100]
+one = "支付PIN不能全部为相同数字。"
+other = "支付PIN不能全部为相同数字。"
+
+[Code300000110]
+one = "支付PIN不能包含您的手机号。"
+other = "支付PIN不能包含您的手机号。"
+
+[Code300000120]
+one = "支付PIN不能与您的卡号后四位相同。"
+other = "支付PIN不能与您的卡号后四位相同。"
+
+[Code300000130]
+one = "您的卡片尚未激活，请等待实体卡寄送到您手中后，再进行激活并开始使用"
+other = "您的卡片尚未激活，请等待实体卡寄送到您手中后，再进行激活并开始使用"
+
+[Code30000470]
+one = "未填写用户资料"
+other = "未填写用户资料"
+
+[Code30000480]
+one = "空白资料用户需要KYC等级1"
+other = "空白资料用户需要KYC等级1"
+
+[Code30000490]
+one = "空白资料用户需要KYC等级2"
+other = "空白资料用户需要KYC等级2"
+
+[Code30000500]
+one = "空白资料用户需要KYC等级3"
+other = "空白资料用户需要KYC等级3"
+
+[Code30000510]
+one = "无效的卡片供应商"
+other = "无效的卡片供应商"
+
+[Code30000520]
+one = "该卡片必须输入特定的促销码"
+other = "该卡片必须输入特定的促销码"
+
+[Code30000530]
+one = "不允许解除卡片封锁"
+other = "不允许解除卡片封锁"
+
+[Code30000540]
+one = "卡片不在刪除狀態"
+other = "卡片不在刪除狀態"
+
+[Code30000550]
+one = "卡片已经寄出"
+other = "卡片已经寄出"
+
+[Code30000560]
+one = "卡片地址已存在"
+other = "卡片地址已存在"
+
+[Code30000570]
+one = "卡片需先充值至正余额才可解锁。"
+other = "卡片需先充值至正余额才可解锁。"
+
+[Code30000580]
+one = "卡號已存在"
+other = "卡號已存在"
+
+[Code30000590]
+one = "卡號已使用"
+other = "卡號已使用"
+
+[Code310000010]
+one = "Order狀態異常"
+other = "Order狀態異常"
+
+[Code310000020]
+one = "無法建立Order"
+other = "無法建立Order"
+
+[Code310000030]
+one = "儲值金額限制"
+other = "儲值金額限制"
+
+[Code310000040]
+one = "訂單數量限制"
+other = "訂單數量限制"
+
+[Code330000010]
+one = "錯誤的狀態"
+other = "錯誤的狀態"
+
+[Code330000020]
+one = "沒有出貨order"
+other = "沒有出貨order"
+
+[Code340000010]
+one = "卡片额度未同步，请稍后重试"
+other = "卡片额度未同步，请稍后重试"
+
+[Code340000020]
+one = "無此商戶"
+other = "無此商戶"
+
+[Code350000010]
+one = "财务报表数据表有误，请联系客服。"
+other = "财务报表数据表有误，请联系客服。"
+
+[Code350000020]
+one = "选择的日期范围过大，请缩小范围后再试一次。"
+other = "选择的日期范围过大，请缩小范围后再试一次。"
+
+[Code360000010]
+one = "卡片不存在"
+other = "卡片不存在"
+
+[Code360000020]
+one = "超過訂單上限"
+other = "超過訂單上限"
+
+[Code10000241]
+one = "无效的 session ID。"
+other = "无效的 session ID。"
+
+[Code10000242]
+one = "无效的公司 ID。"
+other = "无效的公司 ID。"
+
+[Code10000247]
+one = "上传图片到 AWS 失败。"
+other = "上传图片到 AWS 失败。"
+
+[Code10000248]
+one = "内部错误。"
+other = "内部错误。"
+
+[Code10000249]
+one = "失败次数过多，已暂时锁定该用户的认证。"
+other = "失败次数过多，已暂时锁定该用户的认证。"
+
+[Code10000250]
+one = "无效的公司用户 ID。"
+other = "无效的公司用户 ID。"
+
+[Code10000251]
+one = "无法识别的图片类型。"
+other = "无法识别的图片类型。"
+
+[Code10000253]
+one = "图片保存失败。"
+other = "图片保存失败。"
+
+[Code10000254]
+one = "获取 AWS 图片 URL 失败。"
+other = "获取 AWS 图片 URL 失败。"
+
+[Code10000260]
+one = "获取全局锁失败。"
+other = "获取全局锁失败。"
+
+[Code10000261]
+one = "签名验证失败。"
+other = "签名验证失败。"
+
+# 文本
+## order
+### title
+    [text_order_title_apply]
+    one = "开卡费"
+    other = "开卡费"
+
+    [text_order_title_transfer_from]
+    one = "来自 {{.value1}}"
+    other = "来自 {{.value1}}"
+
+    [text_order_title_transfer_to]
+    one = "转入 {{.value1}}"
+    other = "转入 {{.value1}}"
+
+    [text_order_title_exchange]
+    one = "{{.value1}} 兑换 {{.value2}}"
+    other = "{{.value1}} 兑换 {{.value2}}"
+
+    [text_order_title_deposit]
+    one = "来自 {{.value1}}"
+    other = "来自 {{.value1}}"
+
+    [text_order_title_top_up_to]
+    one = "来自 {{.value1}}"
+    other = "来自 {{.value1}}"
+
+    [text_order_title_top_up_from]
+    one = "转入 eUSD({{.value1}})"
+    other = "转入 eUSD({{.value1}})"
+
+    [text_order_title_top_down_from]
+    one = "转入 {{.value1}}"
+    other = "转入 {{.value1}}"
+
+    [text_order_title_top_down_to]
+    one = "来自 eUSD({{.value1}})"
+    other = "来自 eUSD({{.value1}})"
+
+    [text_order_title_verify]
+    one = "{{.value1}}"
+    other = "{{.value1}}"
+
+    [text_order_title_card_to_card_from]
+    one = "来自 eUSD({{.value1}})"
+    other = "来自 eUSD({{.value1}})"
+
+    [text_order_title_card_to_card_to]
+    one = "转入 eUSD({{.value1}})"
+    other = "转入 eUSD({{.value1}})"
+
+    [text_order_title_withdraw]
+    one = "转入 {{.value1}}"
+    other = "转入 {{.value1}}"
+
+    [text_order_title_pay]
+    one = "{{.value1}}"
+    other = "{{.value1}}"
+
+    [text_order_title_refund]
+    one = "{{.value1}} 退款"
+    other = "{{.value1}} 退款"
+
+    [text_order_title_cp_express]
+    one = "{{.value1}} 充值 {{.value2}}"
+    other = "{{.value1}} 充值 {{.value2}}"
+
+    [text_order_title_point_accural]
+    one = "已获得"
+    other = "已获得"
+
+    [text_order_title_point_redeem]
+    one = "已兑换 #{{.value1}}"
+    other = "已兑换 #{{.value1}}"
+
+    [text_order_title_interest]
+    one = "利息"
+    other = "利息"
+
+    [text_order_title_interest_auto_yield]
+    one = "简单理财利息"
+    other = "简单理财利息"
+
+    [text_order_title_financial_transfer_from]
+    one = "转入 {{.value1}}"
+    other = "转入 {{.value1}}"
+
+    [text_order_title_financial_transfer_to]
+    one = "来自理财利息"
+    other = "来自理财利息"
+
+    [text_order_title_financial_transfer_to_auto_yield]
+    one = "来自简单理财"
+    other = "来自简单理财"
+
+    [text_order_title_distribute_apply]
+    one = "开卡返佣"
+    other = "开卡返佣"
+
+    [text_order_title_system_charge_decline_fine]
+    one = "拒刷罚金"
+    other = "拒刷罚金"
+
+   [text_order_title_merchant_adjust_balance]
+    one = "商戶充值"
+    other = "商戶充值"
+
+
+## card
+### reap_code
+#### apply
+
+    [text_card_reap_apply_code_0302008]
+    one = "无效的卡片到期日"
+    other = "无效的卡片到期日"
+
+    [text_card_reap_apply_code_0302005]
+    one = "无效的卡片到期日格式"
+    other = "无效的卡片到期日格式"
+
+    [text_card_reap_apply_code_0302009]
+    one = "无效的电话号码"
+    other = "无效的电话号码"
+
+    [text_card_reap_apply_code_0302012]
+    one = "必须填写消费限制"
+    other = "必须填写消费限制"
+
+    [text_card_reap_apply_code_0321002]
+    one = "必须选择加密货币"
+    other = "必须选择加密货币"
+
+    [text_card_reap_apply_code_0302007]
+    one = "帐户馀额不足"
+    other = "帐户馀额不足"
+
+    [text_card_reap_apply_code_0315001]
+    one = "此国家不提供卡片发行"
+    other = "此国家不提供卡片发行"
+
+    [text_card_reap_apply_code_0302019]
+    one = "此卡片类型不支持副卡名称"
+    other = "此卡片类型不支持副卡名称"
+
+    [text_card_reap_apply_code_0309007]
+    one = "此卡片设计不支持副卡名称"
+    other = "此卡片设计不支持副卡名称"
+
+    [text_card_reap_apply_code_0401001]
+    one = "可用额度不足"
+    other = " 可用额度不足"
+
+    [text_card_reap_apply_code_0321001]
+    one = "尚未启用提款钱包"
+    other = "尚未启用提款钱包"
+
+    [text_card_reap_apply_code_0302006]
+    one = "找到此帐户的根预算"
+    other = "找到此帐户的根预算"
+
+    [text_card_reap_apply_code_0309002]
+    one = "未找到指定的卡片设计"
+    other = "未找到指定的卡片设计"
+
+    [text_card_reap_apply_code_0302020]
+    one = "无法在此商务帐户下创建卡片"
+    other = "无法在此商务帐户下创建卡片"
+
+    [text_card_reap_apply_code_0302010]
+    one = "系统目前正在维护中"
+    other = "系统目前正在维护中"
+
+    [text_card_reap_apply_code_input_invalid]
+    one = "无效的输入资料"
+    other = "无效的输入资料"
+
+#### ship
+
+    [text_card_reap_ship_code_0302014]
+    one = "无法运送虚拟卡"
+    other = "无法运送虚拟卡"
+
+    [text_card_reap_ship_code_0302015]
+    one = "提供的卡片已在生产或已运送"
+    other = "提供的卡片已在生产或已运送"
+
+    [text_card_reap_ship_code_0302024]
+    one = "卡片受限"
+    other = "卡片受限"
+
+    [text_card_reap_ship_code_0315003]
+    one = "运送到该国家需要区域"
+    other = "运送到该国家需要区域"
+
+    [text_card_reap_ship_code_0315001]
+    one = "运送到该国家受限"
+    other = "运送到该国家受限"
+
+    [text_card_reap_ship_code_0315002]
+    one = "运送到该国家不支持"
+    other = "运送到该国家不支持"
+
+    [text_card_reap_ship_code_0315005]
+    one = "收件人的电话区号应与运送国家相符"
+    other = "收件人的电话区号应与运送国家相符"
+
+    [text_card_reap_ship_code_0315004]
+    one = "电话号码无效"
+    other = "电话号码无效"
+
+    [text_card_reap_ship_code_0315006]
+    one = "在 BIN 迁移期间卡片运送被阻止"
+    other = "在 BIN 迁移期间卡片运送被阻止"
+
+    [text_card_reap_ship_code_0309002]
+    one = "找不到卡片设计"
+    other = "找不到卡片设计"
+
+    [text_card_reap_ship_code_0309001]
+    one = "卡片设计缺货"
+    other = "卡片设计缺货"
+
+    [text_card_reap_ship_code_0302004]
+    one = "更新 GPS 上的送货地址时出错"
+    other = "更新 GPS 上的送货地址时出错"
+
+    [text_card_reap_ship_code_999999]
+    one = "内部伺服器错误"
+    other = "内部伺服器错误"
+
+#### cp
+
+    [text_cp_frozen]
+    one = "因操作频繁而暂停下单权限，请联系客服"
+    other = "因操作频繁而暂停下单权限，请联系客服"
+
+
+#### country
+
+    [text_system_country_usa]
+    one = "美国"
+    other = "美国"
+
+    [text_system_country_jpn]
+    one = "日本"
+    other = "日本"
+
+    [text_system_country_aut]
+    one = "奥地利"
+    other = "奥地利"
+
+    [text_system_country_bel]
+    one = "比利时"
+    other = "比利时"
+
+    [text_system_country_bgr]
+    one = "保加利亚"
+    other = "保加利亚"
+
+    [text_system_country_cyp]
+    one = "赛普勒斯"
+    other = "赛普勒斯"
+
+    [text_system_country_cze]
+    one = "捷克"
+    other = "捷克"
+
+    [text_system_country_deu]
+    one = "德国"
+    other = "德国"
+
+    [text_system_country_dnk]
+    one = "丹麦"
+    other = "丹麦"
+
+    [text_system_country_esp]
+    one = "西班牙"
+    other = "西班牙"
+
+    [text_system_country_est]
+    one = "爱沙尼亚"
+    other = "爱沙尼亚"
+
+    [text_system_country_fin]
+    one = "芬兰"
+    other = "芬兰"
+
+    [text_system_country_fra]
+    one = "法国"
+    other = "法国"
+
+    [text_system_country_grc]
+    one = "希腊"
+    other = "希腊"
+
+    [text_system_country_hun]
+    one = "匈牙利"
+    other = "匈牙利"
+
+    [text_system_country_irl]
+    one = "爱尔兰"
+    other = "爱尔兰"
+
+    [text_system_country_ita]
+    one = "义大利"
+    other = "义大利"
+
+    [text_system_country_lat]
+    one = "拉脱维亚"
+    other = "拉脱维亚"
+
+    [text_system_country_lit]
+    one = "立陶宛"
+    other = "立陶宛"
+
+    [text_system_country_lux]
+    one = "卢森堡"
+    other = "卢森堡"
+
+    [text_system_country_mlt]
+    one = "马尔他"
+    other = "马尔他"
+
+    [text_system_country_nld]
+    one = "荷兰"
+    other = "荷兰"
+
+    [text_system_country_pol]
+    one = "波兰"
+    other = "波兰"
+
+    [text_system_country_prt]
+    one = "葡萄牙"
+    other = "葡萄牙"
+
+    [text_system_country_rou]
+    one = "罗马尼亚"
+    other = "罗马尼亚"
+
+    [text_system_country_svk]
+    one = "斯洛伐克"
+    other = "斯洛伐克"
+
+    [text_system_country_svn]
+    one = "斯洛维尼亚"
+    other = "斯洛维尼亚"
+
+    [text_system_country_swe]
+    one = "瑞典"
+    other = "瑞典"
+
+    [text_system_country_gbr]
+    one = "英国"
+    other = "英国"
+
+    [text_system_country_chn]
+    one = "中国大陸"
+    other = "中国大陸"
+
+    [text_system_country_can]
+    one = "加拿大"
+    other = "加拿大"
+
+    [text_system_country_aus]
+    one = "澳洲"
+    other = "澳洲"
+
+    [text_system_country_che]
+    one = "瑞士"
+    other = "瑞士"
+
+    [text_system_country_hkg]
+    one = "香港"
+    other = "香港"
+
+    [text_system_country_nzl]
+    one = "纽西兰"
+    other = "纽西兰"
+
+    [text_system_country_mex]
+    one = "墨西哥"
+    other = "墨西哥"
+
+    [text_system_country_sgp]
+    one = "新加坡"
+    other = "新加坡"
+
+    [text_system_country_nor]
+    one = "挪威"
+    other = "挪威"
+
+    [text_system_country_kor]
+    one = "南韩"
+    other = "南韩"
+
+    [text_system_country_tur]
+    one = "土耳其"
+    other = "土耳其"
+
+    [text_system_country_ind]
+    one = "印度"
+    other = "印度"
+
+    [text_system_country_bra]
+    one = "巴西"
+    other = "巴西"
+
+    [text_system_country_zaf]
+    one = "南非"
+    other = "南非"
+
+    [text_system_country_rus]
+    one = "俄罗斯"
+    other = "俄罗斯"
+
+    [text_system_country_twn]
+    one = "台湾"
+    other = "台湾"
+
+    [text_system_country_isr]
+    one = "以色列"
+    other = "以色列"
+
+    [text_system_country_are]
+    one = "阿拉伯联合大公国"
+    other = "阿拉伯联合大公国"
+
+    [text_system_country_arg]
+    one = "阿根廷"
+    other = "阿根廷"
+
+    [text_system_country_mys]
+    one = "马来西亚"
+    other = "马来西亚"
+
+    [text_system_country_tha]
+    one = "泰国"
+    other = "泰国"
+
+    [text_system_country_sau]
+    one = "沙乌地阿拉伯"
+    other = "沙乌地阿拉伯"
+
+    [text_system_country_idn]
+    one = "印尼"
+    other = "印尼"
+
+    [text_system_country_pak]
+    one = "巴基斯坦"
+    other = "巴基斯坦"
+
+    [text_system_country_nga]
+    one = "奈及利亚"
+    other = "奈及利亚"
+
+    [text_system_country_egy]
+    one = "埃及"
+    other = "埃及"
+
+    [text_system_country_vnm]
+    one = "越南"
+    other = "越南"
+
+    [text_system_country_phl]
+    one = "菲律宾"
+    other = "菲律宾"
+
+    [text_system_country_col]
+    one = "哥伦比亚"
+    other = "哥伦比亚"
+
+    [text_system_country_chl]
+    one = "智利"
+    other = "智利"
+
+    [text_system_country_per]
+    one = "秘鲁"
+    other = "秘鲁"
+
+    [text_system_country_dza]
+    one = "阿尔及利亚"
+    other = "阿尔及利亚"
+
+    [text_system_country_mar]
+    one = "摩洛哥"
+    other = "摩洛哥"
+
+    [text_system_country_ken]
+    one = "肯亚"
+    other = "肯亚"
+
+    [text_system_country_ukr]
+    one = "乌克兰"
+    other = "乌克兰"
+
+    [text_system_country_afg]
+    one = "阿富汗"
+    other = "阿富汗"
+
+    [text_system_country_eth]
+    one = "衣索比亚"
+    other = "衣索比亚"
+
+    [text_system_country_cod]
+    one = "刚果民主共和国"
+    other = "刚果民主共和国"
+
+    [text_system_country_tza]
+    one = "坦尚尼亚"
+    other = "坦尚尼亚"
+
+    [text_system_country_uzb]
+    one = "乌兹别克"
+    other = "乌兹别克"
+
+    [text_system_country_ala]
+    one = "奥兰群岛"
+    other = "奥兰群岛"
+
+    [text_system_country_alb]
+    one = "阿尔巴尼亚"
+    other = "阿尔巴尼亚"
+
+    [text_system_country_asm]
+    one = "美属萨摩亚"
+    other = "美属萨摩亚"
+
+    [text_system_country_and]
+    one = "安道尔"
+    other = "安道尔"
+
+    [text_system_country_ago]
+    one = "安哥拉"
+    other = "安哥拉"
+
+    [text_system_country_aia]
+    one = "安圭拉"
+    other = "安圭拉"
+
+    [text_system_country_ata]
+    one = "南极洲"
+    other = "南极洲"
+
+    [text_system_country_atg]
+    one = "安地卡及巴布达"
+    other = "安地卡及巴布达"
+
+    [text_system_country_arm]
+    one = "亚美尼亚"
+    other = "亚美尼亚"
+
+    [text_system_country_abw]
+    one = "阿鲁巴"
+    other = "阿鲁巴"
+
+    [text_system_country_aze]
+    one = "亚塞拜然"
+    other = "亚塞拜然"
+
+    [text_system_country_bhs]
+    one = "巴哈马"
+    other = "巴哈马"
+
+    [text_system_country_bhr]
+    one = "巴林"
+    other = "巴林"
+
+    [text_system_country_bgd]
+    one = "孟加拉"
+    other = "孟加拉"
+
+    [text_system_country_brb]
+    one = "巴贝多"
+    other = "巴贝多"
+
+    [text_system_country_blr]
+    one = "白俄罗斯"
+    other = "白俄罗斯"
+
+    [text_system_country_blz]
+    one = "贝里斯"
+    other = "贝里斯"
+
+    [text_system_country_ben]
+    one = "贝南"
+    other = "贝南"
+
+    [text_system_country_bmu]
+    one = "百慕达"
+    other = "百慕达"
+
+    [text_system_country_btn]
+    one = "不丹"
+    other = "不丹"
+
+    [text_system_country_bol]
+    one = "玻利维亚"
+    other = "玻利维亚"
+
+    [text_system_country_bes]
+    one = "荷兰加勒比区"
+    other = "荷兰加勒比区"
+
+    [text_system_country_bih]
+    one = "波士尼亚与赫塞哥维纳"
+    other = "波士尼亚与赫塞哥维纳"
+
+    [text_system_country_bwa]
+    one = "波札那"
+    other = "波札那"
+
+    [text_system_country_bvt]
+    one = "布威岛"
+    other = "布威岛"
+
+    [text_system_country_iot]
+    one = "英属印度洋领地"
+    other = "英属印度洋领地"
+
+    [text_system_country_brn]
+    one = "汶莱"
+    other = "汶莱"
+
+    [text_system_country_bfa]
+    one = "布吉纳法索"
+    other = "布吉纳法索"
+
+    [text_system_country_bdi]
+    one = "蒲隆地"
+    other = "蒲隆地"
+
+    [text_system_country_cpv]
+    one = "维德角"
+    other = "维德角"
+
+    [text_system_country_khm]
+    one = "柬埔寨"
+    other = "柬埔寨"
+
+    [text_system_country_cmr]
+    one = "喀麦隆"
+    other = "喀麦隆"
+
+    [text_system_country_cym]
+    one = "开曼群岛"
+    other = "开曼群岛"
+
+    [text_system_country_caf]
+    one = "中非共和国"
+    other = "中非共和国"
+
+    [text_system_country_tcd]
+    one = "查德"
+    other = "查德"
+
+    [text_system_country_cxr]
+    one = "圣诞岛"
+    other = "圣诞岛"
+
+    [text_system_country_cck]
+    one = "科科斯群岛"
+    other = "科科斯群岛"
+
+    [text_system_country_com]
+    one = "葛摩"
+    other = "葛摩"
+
+    [text_system_country_cog]
+    one = "刚果共和国"
+    other = "刚果共和国"
+
+    [text_system_country_cok]
+    one = "库克群岛"
+    other = "库克群岛"
+
+    [text_system_country_cri]
+    one = "哥斯大黎加"
+    other = "哥斯大黎加"
+
+    [text_system_country_civ]
+    one = "象牙海岸"
+    other = "象牙海岸"
+
+    [text_system_country_hrv]
+    one = "克罗埃西亚"
+    other = "克罗埃西亚"
+
+    [text_system_country_cub]
+    one = "古巴"
+    other = "古巴"
+
+    [text_system_country_cuw]
+    one = "古拉索"
+    other = "古拉索"
+
+    [text_system_country_dji]
+    one = "吉布地"
+    other = "吉布地"
+
+    [text_system_country_dma]
+    one = "多米尼克"
+    other = "多米尼克"
+
+    [text_system_country_dom]
+    one = "多明尼加"
+    other = "多明尼加"
+
+    [text_system_country_ecu]
+    one = "厄瓜多"
+    other = "厄瓜多"
+
+    [text_system_country_slv]
+    one = "萨尔瓦多"
+    other = "萨尔瓦多"
+
+    [text_system_country_gnq]
+    one = "赤道几内亚"
+    other = "赤道几内亚"
+
+    [text_system_country_eri]
+    one = "厄利垂亚"
+    other = "厄利垂亚"
+
+    [text_system_country_swz]
+    one = "史瓦帝尼"
+    other = "史瓦帝尼"
+
+    [text_system_country_flk]
+    one = "福克兰群岛"
+    other = "福克兰群岛"
+
+    [text_system_country_fro]
+    one = "法罗群岛"
+    other = "法罗群岛"
+
+    [text_system_country_fji]
+    one = "斐济"
+    other = "斐济"
+
+    [text_system_country_guf]
+    one = "法属圭亚那"
+    other = "法属圭亚那"
+
+    [text_system_country_pyf]
+    one = "法属玻里尼西亚"
+    other = "法属玻里尼西亚"
+
+    [text_system_country_atf]
+    one = "法属南部领地"
+    other = "法属南部领地"
+
+    [text_system_country_gab]
+    one = "加彭"
+    other = "加彭"
+
+    [text_system_country_gmb]
+    one = "甘比亚"
+    other = "甘比亚"
+
+    [text_system_country_geo]
+    one = "乔治亚"
+    other = "乔治亚"
+
+    [text_system_country_gha]
+    one = "迦纳"
+    other = "迦纳"
+
+    [text_system_country_gib]
+    one = "直布罗陀"
+    other = "直布罗陀"
+
+    [text_system_country_grl]
+    one = "格陵兰"
+    other = "格陵兰"
+
+    [text_system_country_grd]
+    one = "格瑞那达"
+    other = "格瑞那达"
+
+    [text_system_country_glp]
+    one = "瓜地洛普"
+    other = "瓜地洛普"
+
+    [text_system_country_gum]
+    one = "关岛"
+    other = "关岛"
+
+    [text_system_country_gtm]
+    one = "瓜地马拉"
+    other = "瓜地马拉"
+
+    [text_system_country_ggy]
+    one = "根西岛"
+    other = "根西岛"
+
+    [text_system_country_gin]
+    one = "几内亚"
+    other = "几内亚"
+
+    [text_system_country_gnb]
+    one = "几内亚比索"
+    other = "几内亚比索"
+
+    [text_system_country_guy]
+    one = "盖亚那"
+    other = "盖亚那"
+
+    [text_system_country_hti]
+    one = "海地"
+    other = "海地"
+
+    [text_system_country_hmd]
+    one = "赫德岛及麦唐纳群岛"
+    other = "赫德岛及麦唐纳群岛"
+
+    [text_system_country_vat]
+    one = "梵蒂冈"
+    other = "梵蒂冈"
+
+    [text_system_country_hnd]
+    one = "宏都拉斯"
+    other = "宏都拉斯"
+
+    [text_system_country_isl]
+    one = "冰岛"
+    other = "冰岛"
+
+    [text_system_country_irn]
+    one = "伊朗"
+    other = "伊朗"
+
+    [text_system_country_irq]
+    one = "伊拉克"
+    other = "伊拉克"
+
+    [text_system_country_imn]
+    one = "曼岛"
+    other = "曼岛"
+
+    [text_system_country_jam]
+    one = "牙买加"
+    other = "牙买加"
+
+    [text_system_country_jey]
+    one = "泽西岛"
+    other = "泽西岛"
+
+    [text_system_country_jor]
+    one = "约旦"
+    other = "约旦"
+
+    [text_system_country_kaz]
+    one = "哈萨克"
+    other = "哈萨克"
+
+    [text_system_country_kir]
+    one = "吉里巴斯"
+    other = "吉里巴斯"
+
+    [text_system_country_prk]
+    one = "北韩"
+    other = "北韩"
+
+    [text_system_country_kwt]
+    one = "科威特"
+    other = "科威特"
+
+    [text_system_country_kgz]
+    one = "吉尔吉斯"
+    other = "吉尔吉斯"
+
+    [text_system_country_lao]
+    one = "寮国"
+    other = "寮国"
+
+    [text_system_country_lva]
+    one = "拉脱维亚"
+    other = "拉脱维亚"
+
+    [text_system_country_lbn]
+    one = "黎巴嫩"
+    other = "黎巴嫩"
+
+    [text_system_country_lso]
+    one = "赖索托"
+    other = "赖索托"
+
+    [text_system_country_lbr]
+    one = "赖比瑞亚"
+    other = "赖比瑞亚"
+
+    [text_system_country_lby]
+    one = "利比亚"
+    other = "利比亚"
+
+    [text_system_country_lie]
+    one = "列支敦斯登"
+    other = "列支敦斯登"
+
+    [text_system_country_ltu]
+    one = "立陶宛"
+    other = "立陶宛"
+
+    [text_system_country_mac]
+    one = "澳门"
+    other = "澳门"
+
+    [text_system_country_mdg]
+    one = "马达加斯加"
+    other = "马达加斯加"
+
+    [text_system_country_mwi]
+    one = "马拉威"
+    other = "马拉威"
+
+    [text_system_country_mdv]
+    one = "马尔地夫"
+    other = "马尔地夫"
+
+    [text_system_country_mli]
+    one = "马利"
+    other = "马利"
+
+    [text_system_country_mhl]
+    one = "马绍尔群岛"
+    other = "马绍尔群岛"
+
+    [text_system_country_mtq]
+    one = "马丁尼克"
+    other = "马丁尼克"
+
+    [text_system_country_mrt]
+    one = "茅利塔尼亚"
+    other = "茅利塔尼亚"
+
+    [text_system_country_mus]
+    one = "模里西斯"
+    other = "模里西斯"
+
+    [text_system_country_myt]
+    one = "马约特"
+    other = "马约特"
+
+    [text_system_country_fsm]
+    one = "密克罗尼西亚"
+    other = "密克罗尼西亚"
+
+    [text_system_country_mda]
+    one = "摩尔多瓦"
+    other = "摩尔多瓦"
+
+    [text_system_country_mco]
+    one = "摩纳哥"
+    other = "摩纳哥"
+
+    [text_system_country_mng]
+    one = "蒙古"
+    other = "蒙古"
+
+    [text_system_country_mne]
+    one = "蒙特内哥罗"
+    other = "蒙特内哥罗"
+
+    [text_system_country_msr]
+    one = "蒙哲腊"
+    other = "蒙哲腊"
+
+    [text_system_country_moz]
+    one = "莫三比克"
+    other = "莫三比克"
+
+    [text_system_country_mmr]
+    one = "缅甸"
+    other = "缅甸"
+
+    [text_system_country_nam]
+    one = "纳米比亚"
+    other = "纳米比亚"
+
+    [text_system_country_nru]
+    one = "诺鲁"
+    other = "诺鲁"
+
+    [text_system_country_npl]
+    one = "尼泊尔"
+    other = "尼泊尔"
+
+    [text_system_country_ncl]
+    one = "新喀里多尼亚"
+    other = "新喀里多尼亚"
+
+    [text_system_country_nic]
+    one = "尼加拉瓜"
+    other = "尼加拉瓜"
+
+    [text_system_country_ner]
+    one = "尼日"
+    other = "尼日"
+
+    [text_system_country_niu]
+    one = "纽埃"
+    other = "纽埃"
+
+    [text_system_country_nfk]
+    one = "诺福克岛"
+    other = "诺福克岛"
+
+    [text_system_country_mkd]
+    one = "北马其顿"
+    other = "北马其顿"
+
+    [text_system_country_mnp]
+    one = "北马利安纳群岛"
+    other = "北马利安纳群岛"
+
+    [text_system_country_omn]
+    one = "阿曼"
+    other = "阿曼"
+
+    [text_system_country_plw]
+    one = "帛琉"
+    other = "帛琉"
+
+    [text_system_country_pse]
+    one = "巴勒斯坦"
+    other = "巴勒斯坦"
+
+    [text_system_country_pan]
+    one = "巴拿马"
+    other = "巴拿马"
+
+    [text_system_country_png]
+    one = "巴布亚纽几内亚"
+    other = "巴布亚纽几内亚"
+
+    [text_system_country_pry]
+    one = "巴拉圭"
+    other = "巴拉圭"
+
+    [text_system_country_pcn]
+    one = "皮特肯群岛"
+    other = "皮特肯群岛"
+
+    [text_system_country_pri]
+    one = "波多黎各"
+    other = "波多黎各"
+
+    [text_system_country_qat]
+    one = "卡达"
+    other = "卡达"
+
+    [text_system_country_reu]
+    one = "留尼旺"
+    other = "留尼旺"
+
+    [text_system_country_rwa]
+    one = "卢安达"
+    other = "卢安达"
+
+    [text_system_country_blm]
+    one = "圣巴瑟米"
+    other = "圣巴瑟米"
+
+    [text_system_country_shn]
+    one = "圣赫勒拿、阿森松和特里斯坦达库尼亚"
+    other = "圣赫勒拿、阿森松和特里斯坦达库尼亚"
+
+    [text_system_country_kna]
+    one = "圣克里斯多福及尼维斯"
+    other = "圣克里斯多福及尼维斯"
+
+    [text_system_country_lca]
+    one = "圣露西亚"
+    other = "圣露西亚"
+
+    [text_system_country_maf]
+    one = "法属圣马丁"
+    other = "法属圣马丁"
+
+    [text_system_country_spm]
+    one = "圣皮埃与密克隆群岛"
+    other = "圣皮埃与密克隆群岛"
+
+    [text_system_country_vct]
+    one = "圣文森及格瑞那丁"
+    other = "圣文森及格瑞那丁"
+
+    [text_system_country_wsm]
+    one = "萨摩亚"
+    other = "萨摩亚"
+
+    [text_system_country_smr]
+    one = "圣马利诺"
+    other = "圣马利诺"
+
+    [text_system_country_stp]
+    one = "圣多美普林西比"
+    other = "圣多美普林西比"
+
+    [text_system_country_sen]
+    one = "塞内加尔"
+    other = "塞内加尔"
+
+    [text_system_country_srb]
+    one = "塞尔维亚"
+    other = "塞尔维亚"
+
+    [text_system_country_syc]
+    one = "塞席尔"
+    other = "塞席尔"
+
+    [text_system_country_sle]
+    one = "狮子山"
+    other = "狮子山"
+
+    [text_system_country_sxm]
+    one = "荷属圣马丁"
+    other = "荷属圣马丁"
+
+    [text_system_country_slb]
+    one = "索罗门群岛"
+    other = "索罗门群岛"
+
+    [text_system_country_som]
+    one = "索马利亚"
+    other = "索马利亚"
+
+    [text_system_country_sgs]
+    one = "南乔治亚与南桑威奇群岛"
+    other = "南乔治亚与南桑威奇群岛"
+
+    [text_system_country_ssd]
+    one = "南苏丹"
+    other = "南苏丹"
+
+    [text_system_country_lka]
+    one = "斯里兰卡"
+    other = "斯里兰卡"
+
+    [text_system_country_sdn]
+    one = "苏丹"
+    other = "苏丹"
+
+    [text_system_country_sur]
+    one = "苏利南"
+    other = "苏利南"
+
+    [text_system_country_sjm]
+    one = "斯瓦巴和扬马延"
+    other = "斯瓦巴和扬马延"
+
+    [text_system_country_syr]
+    one = "叙利亚"
+    other = "叙利亚"
+
+    [text_system_country_tjk]
+    one = "塔吉克"
+    other = "塔吉克"
+
+    [text_system_country_tls]
+    one = "东帝汶"
+    other = "东帝汶"
+
+    [text_system_country_tgo]
+    one = "多哥"
+    other = "多哥"
+
+    [text_system_country_tkl]
+    one = "托克劳"
+    other = "托克劳"
+
+    [text_system_country_ton]
+    one = "东加"
+    other = "东加"
+
+    [text_system_country_tto]
+    one = "千里达及托巴哥"
+    other = "千里达及托巴哥"
+
+    [text_system_country_tun]
+    one = "突尼西亚"
+    other = "突尼西亚"
+
+    [text_system_country_tkm]
+    one = "土库曼"
+    other = "土库曼"
+
+    [text_system_country_tca]
+    one = "土克凯可群岛"
+    other = "土克凯可群岛"
+
+    [text_system_country_tuv]
+    one = "吐瓦鲁"
+    other = "吐瓦鲁"
+
+    [text_system_country_uga]
+    one = "乌干达"
+    other = "乌干达"
+
+    [text_system_country_umi]
+    one = "美国本土外小岛屿"
+    other = "美国本土外小岛屿"
+
+    [text_system_country_ury]
+    one = "乌拉圭"
+    other = "乌拉圭"
+
+    [text_system_country_vut]
+    one = "万那杜"
+    other = "万那杜"
+
+    [text_system_country_ven]
+    one = "委内瑞拉"
+    other = "委内瑞拉"
+
+    [text_system_country_vgb]
+    one = "英属维京群岛"
+    other = "英属维京群岛"
+
+    [text_system_country_vir]
+    one = "美属维京群岛"
+    other = "美属维京群岛"
+
+    [text_system_country_wlf]
+    one = "瓦利斯和富图纳"
+    other = "瓦利斯和富图纳"
+
+    [text_system_country_esh]
+    one = "西撒哈拉"
+    other = "西撒哈拉"
+
+    [text_system_country_yem]
+    one = "叶门"
+    other = "叶门"
+
+    [text_system_country_zmb]
+    one = "尚比亚"
+    other = "尚比亚"
+
+    [text_system_country_zwe]
+    one = "辛巴威"
+    other = "辛巴威"
