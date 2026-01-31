@@ -5,38 +5,19 @@ const (
 	HEADER_X_TOKEN      = "X-Token" // 令牌
 	HEADER_X_UID        = "X-Uid"   // 用戶id
 	HEADER_X_DEVICE_ID  = "DeviceId"
-	HEADER_X_EXPIRED_TS = "X-ExpiredTs" // 令牌過期時間
-	HEADER_X_EXTEND     = "X-Extend"    // 延伸資料
-	HEADER_X_CONVERT    = "X-Convert"   // 轉換資料
+	HEADER_X_EXPIRED_TS = "X-Expired" // 令牌過期時間
+	HEADER_X_EXTEND     = "X-Extend"  // 延伸資料
+	HEADER_X_CONVERT    = "X-Convert" // 轉換資料
 
 	HEADER_X_GROUP_IDS           = "X-GroupIds"             // 用戶群組
 	HEADER_X_ROLE                = "X-Role"                 // 用戶角色
-	HEADER_X_MERCHANT_ID         = "X-MerchantId"           // 用戶商戶id
-	HEADER_X_LEVEL               = "X-Level"                // 用戶等級
-	HEADER_X_API_KEY             = "X-ApiKey"               // api鑰匙
 	HEADER_X_RATELIMIT_LIMIT     = "X-RateLimit-Limit"      // 限流上限
 	HEADER_X_RATELIMIT_REMAINING = "X-RateLimit-Remaining"  // 剩餘次數
 	HEADER_X_RATELIMIT_USED      = "X-RateLimit-Reset-Used" // 使用次數
 	HEADER_X_RATELIMIT_RESET     = "X-RateLimit-Reset"      // 重置時間
-	HEADER_X_PLATFORM            = "X-Platform"             // 平台：ios/android/web
-	HEADER_X_REAL_IP             = "X-Real-IP"              // nginx轉發前ip
-	HEADER_REAP_SIGNATURE        = "Reap-Signature"         // reap簽名
-	HEADER_SIGNATURE             = "Signature"              // 簽名
-	HEADER_TIMESTAMP             = "Timestamp"              // 簽名時間戳
 	HEADER_X_APP_VERSION         = "X-App-version"          // app 版本
 	HEADER_X_REQUEST_ID          = "X-Request-Id"           // 請求id
 	HEADER_ACCEPT_LANGUAGED      = "Accept-Language"        // 語系
-)
-
-const (
-	PLATFORM_WEB     = "web"
-	PLATFORM_ANDROID = "android"
-	PLATFORM_IOS     = "ios"
-)
-
-// config
-const (
-	PASSWORD_SALT = "3$WTm*#cXtJY"
 )
 
 // error code 編碼方式: CODE_{模組名稱}_{錯誤類別}
@@ -44,7 +25,6 @@ const (
 	// general
 	CODE_UNKNOWN                       = 0     // 未知
 	CODE_OK                            = 1     // 成功
-	CODE_SUCCESS                       = 200   // 成功
 	CODE_SYSTEM_ERROR                  = 10000 // 系統錯誤
 	CODE_UNKOWN_ERROR                  = 10001 // 未知錯誤
 	CODE_SYSTEM_BUSY                   = 10010 // 系統忙碌
@@ -97,6 +77,9 @@ const (
 	CODE_PAGE_SIZE_EXCEEDED            = 10250 // 頁面大小超過限制
 	CODE_INSUFFICIENT_MEMORY           = 10260 // 記憶體不足
 	CODE_INSUFFICIENT_CPU              = 10261 // CPU不足
+
+	CODE_NO_SUCH_USER              = 100010 // 無此用戶
+	CODE_EMAIL_OR_PIN_CODE_INVALID = 100020 // 電郵或pin code不正確
 
 	// user
 	CODE_USER_NO_SUCH_USER                       = 10000010 // 無此用戶
@@ -3189,15 +3172,13 @@ const (
 
 type Role int // 角色
 const (
-	ROLE_GUEST            Role = 1
-	ROLE_USER             Role = 2
-	ROLE_ADMIN            Role = 3
-	ROLE_MERCHANT         Role = 4
-	ROLE_MERCHANT_ADMIN   Role = 5
-	ROLE_MERCHANT_USER    Role = 6
-	ROLE_ADMIN_AGENT_USER Role = 7
-	ROLE_DAPP_USER        Role = 8
-	ROLE_SYSTEM           Role = 9
+	ROLE_GUEST          Role = 1
+	ROLE_USER           Role = 2
+	ROLE_ADMIN          Role = 3
+	ROLE_MERCHANT       Role = 4
+	ROLE_MERCHANT_ADMIN Role = 5
+	ROLE_MERCHANT_USER  Role = 6
+	ROLE_SYSTEM         Role = 9
 )
 
 type SingleFlightGroup int // singleflight組別
