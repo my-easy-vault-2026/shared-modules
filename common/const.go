@@ -2379,61 +2379,6 @@ const (
 	NATION_CODE_ZWE NationCode = "ZWE" // Zimbabwe
 )
 
-type USStateCode string // 美國州碼
-const (
-	US_STATE_CODE_AL USStateCode = "AL" // Alabama
-	US_STATE_CODE_AK USStateCode = "AK" // Alaska
-	US_STATE_CODE_AZ USStateCode = "AZ" // Arizona
-	US_STATE_CODE_AR USStateCode = "AR" // Arkansas
-	US_STATE_CODE_CA USStateCode = "CA" // California
-	US_STATE_CODE_CO USStateCode = "CO" // Colorado
-	US_STATE_CODE_CT USStateCode = "CT" // Connecticut
-	US_STATE_CODE_DE USStateCode = "DE" // Delaware
-	US_STATE_CODE_FL USStateCode = "FL" // Florida
-	US_STATE_CODE_GA USStateCode = "GA" // Georgia
-	US_STATE_CODE_HI USStateCode = "HI" // Hawaii
-	US_STATE_CODE_ID USStateCode = "ID" // Idaho
-	US_STATE_CODE_IL USStateCode = "IL" // Illinois
-	US_STATE_CODE_IN USStateCode = "IN" // Indiana
-	US_STATE_CODE_IA USStateCode = "IA" // Iowa
-	US_STATE_CODE_KS USStateCode = "KS" // Kansas
-	US_STATE_CODE_KY USStateCode = "KY" // Kentucky
-	US_STATE_CODE_LA USStateCode = "LA" // Louisiana
-	US_STATE_CODE_ME USStateCode = "ME" // Maine
-	US_STATE_CODE_MD USStateCode = "MD" // Maryland
-	US_STATE_CODE_MA USStateCode = "MA" // Massachusetts
-	US_STATE_CODE_MI USStateCode = "MI" // Michigan
-	US_STATE_CODE_MN USStateCode = "MN" // Minnesota
-	US_STATE_CODE_MS USStateCode = "MS" // Mississippi
-	US_STATE_CODE_MO USStateCode = "MO" // Missouri
-	US_STATE_CODE_MT USStateCode = "MT" // Montana
-	US_STATE_CODE_NE USStateCode = "NE" // Nebraska
-	US_STATE_CODE_NV USStateCode = "NV" // Nevada
-	US_STATE_CODE_NH USStateCode = "NH" // New Hampshire
-	US_STATE_CODE_NJ USStateCode = "NJ" // New Jersey
-	US_STATE_CODE_NM USStateCode = "NM" // New Mexico
-	US_STATE_CODE_NY USStateCode = "NY" // New York
-	US_STATE_CODE_NC USStateCode = "NC" // North Carolina
-	US_STATE_CODE_ND USStateCode = "ND" // North Dakota
-	US_STATE_CODE_OH USStateCode = "OH" // Ohio
-	US_STATE_CODE_OK USStateCode = "OK" // Oklahoma
-	US_STATE_CODE_OR USStateCode = "OR" // Oregon
-	US_STATE_CODE_PA USStateCode = "PA" // Pennsylvania
-	US_STATE_CODE_RI USStateCode = "RI" // Rhode Island
-	US_STATE_CODE_SC USStateCode = "SC" // South Carolina
-	US_STATE_CODE_SD USStateCode = "SD" // South Dakota
-	US_STATE_CODE_TN USStateCode = "TN" // Tennessee
-	US_STATE_CODE_TX USStateCode = "TX" // Texas
-	US_STATE_CODE_UT USStateCode = "UT" // Utah
-	US_STATE_CODE_VT USStateCode = "VT" // Vermont
-	US_STATE_CODE_VA USStateCode = "VA" // Virginia
-	US_STATE_CODE_WA USStateCode = "WA" // Washington
-	US_STATE_CODE_WV USStateCode = "WV" // West Virginia
-	US_STATE_CODE_WI USStateCode = "WI" // Wisconsin
-	US_STATE_CODE_WY USStateCode = "WY" // Wyoming
-	US_STATE_CODE_DC USStateCode = "DC" // District of Columbia
-)
-
 type NotifyType int // 推播方式
 const (
 	NOTIFY_TYPE_EMAIL   NotifyType = 1
