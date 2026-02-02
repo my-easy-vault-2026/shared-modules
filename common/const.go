@@ -6,9 +6,8 @@ const (
 	HEADER_X_UID        = "X-Uid"   // 用戶id
 	HEADER_X_DEVICE_ID  = "DeviceId"
 	HEADER_X_EXPIRED_TS = "X-Expired" // 令牌過期時間
-	HEADER_X_EXTEND     = "X-Extend"  // 延伸資料
-	HEADER_X_CONVERT    = "X-Convert" // 轉換資料
 
+	HEADER_X_REAL_IP             = "X-Real-IP"              // nginx轉發前ip
 	HEADER_X_GROUP_IDS           = "X-GroupIds"             // 用戶群組
 	HEADER_X_ROLE                = "X-Role"                 // 用戶角色
 	HEADER_X_RATELIMIT_LIMIT     = "X-RateLimit-Limit"      // 限流上限

@@ -3419,8 +3419,6 @@ func (r Role) FromString(s string) Role {
 		return ROLE_MERCHANT_ADMIN
 	case "merchant_user":
 		return ROLE_MERCHANT_USER
-	case "admin_agent_user":
-		return ROLE_ADMIN_AGENT_USER
 	case "system":
 		return ROLE_SYSTEM
 	}
@@ -3441,8 +3439,6 @@ func (r Role) String() string {
 		return "merchant_admin"
 	case ROLE_MERCHANT_USER:
 		return "merchant_user"
-	case ROLE_ADMIN_AGENT_USER:
-		return "agent_admin_user"
 	case ROLE_SYSTEM:
 		return "system"
 	}
