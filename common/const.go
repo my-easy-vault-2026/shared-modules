@@ -83,6 +83,7 @@ const (
 	CODE_INVALID_TARGET            = 100040 // 無效的對象
 	CODE_NO_SUCH_WALLET            = 100050 // 無此錢包
 	CODE_INSUFFICIENT_FUNDS        = 100060 // 資產不足
+	CODE_PREVIEW_EXPIRED           = 100070 // 預覽已過期
 
 	// user
 	CODE_USER_NO_SUCH_USER                       = 10000010 // 無此用戶
@@ -3172,48 +3173,8 @@ const (
 
 type LockPurpose int // 鎖用途
 const (
-	LOCK_PURPOSE_APPLY_CONFIRM                  LockPurpose = 1
-	LOCK_PURPOSE_REAP_TRANSACTION               LockPurpose = 2
-	LOCK_PURPOSE_EXCHANGE_CONFIRM               LockPurpose = 3
-	LOCK_PURPOSE_TRANSFER_CONFIRM               LockPurpose = 4
-	LOCK_PURPOSE_TOP_UP_CONFIRM                 LockPurpose = 5
-	LOCK_PURPOSE_TOP_DOWN_CONFIRM               LockPurpose = 6
-	LOCK_PURPOSE_THREEDS_DAO                    LockPurpose = 7
-	LOCK_PURPOSE_CARD_TO_CARD_CONFIRM           LockPurpose = 8
-	LOCK_PURPOSE_WITHDRAW_CONFIRM               LockPurpose = 9
-	LOCK_PURPOSE_MERCHANT_APPLY                 LockPurpose = 10
-	LOCK_PURPOSE_CALLBACK                       LockPurpose = 11
-	LOCK_PURPOSE_MANUAL                         LockPurpose = 12
-	LOCK_PURPOSE_MERCHANT_THREEDS_DAO           LockPurpose = 13
-	LOCK_PURPOSE_CREATE_POINT                   LockPurpose = 14
-	LOCK_PURPOSE_CREATE_WALLET                  LockPurpose = 15
-	LOCK_PURPOSE_TASK                           LockPurpose = 16
-	LOCK_PURPOSE_CONSUME_POINT                  LockPurpose = 17
-	LOCK_PURPOSE_CREATE_AUTO_YIELD              LockPurpose = 18
-	LOCK_PURPOSE_DISTRIBUTE_AUTO_YIELD          LockPurpose = 19
-	LOCK_PURPOSE_GET_TEMP_ADDRESS               LockPurpose = 20
-	LOCK_PURPOSE_WHALE_WEBHOOK_BALANCE_EDIT     LockPurpose = 21
-	LOCK_PURPOSE_WHALE_WEBHOOK_TRANSFER         LockPurpose = 22
-	LOCK_PURPOSE_WHALE_WEBHOOK_CARD_TRANSACTION LockPurpose = 23
-	LOCK_PURPOSE_WHALE_THREEDS_DAO              LockPurpose = 24
-	LOCK_PURPOSE_CARD_STATUS_FROZEN             LockPurpose = 25
-	LOCK_PURPOSE_WHALE_STATUS_DELETED           LockPurpose = 26
-	LOCK_PURPOSE_WHALE_CHECK_ADJUST             LockPurpose = 27
-	LOCK_PURPOSE_PAYCRYPTO_KYC_SUBMIT           LockPurpose = 28
-	LOCK_PURPOSE_PAYCRYPTO_ACTIVATE             LockPurpose = 29
-	LOCK_PURPOSE_PAYCRYPTO_WEBHOOK              LockPurpose = 30
-	LOCK_PURPOSE_ADMIN_APPLY_CONFIRM            LockPurpose = 31
-	LOCK_PURPOSE_ADMIN_DELETE_USER              LockPurpose = 32
-	LOCK_PURPOSE_ADMIN_DELETE_CARD              LockPurpose = 33
-	LOCK_PURPOSE_ETHEFI_SYNC_TRANSACTION        LockPurpose = 34
-	LOCK_PURPOSE_ETHEFI_SYNC_CARD_TRANSACTION   LockPurpose = 35
-	LOCK_PURPOSE_ETHEFI_SYNC_CARD_EVENT         LockPurpose = 36
-	LOCK_PURPOSE_PIN_UNLOCK                     LockPurpose = 37
-	LOCK_PURPOSE_ETHEFI_SYNC_SPENDING_LIMIT     LockPurpose = 38
-	LOCK_PURPOSE_PHYSICAL_CARD_APPLY            LockPurpose = 41
-	LOCK_PURPOSE_FINANCE_REPORT                 LockPurpose = 39
-	LOCK_PURPOSE_ETHERFI_APPLY_CONFIRM          LockPurpose = 42
-	LOCK_PURPOSE_ETHERFI_REPORT_DOWNLOAD        LockPurpose = 44
+	LOCK_PURPOSE_EXCHANGE_CONFIRM LockPurpose = 3
+	LOCK_PURPOSE_TRANSFER_CONFIRM LockPurpose = 4
 )
 
 type ShippingStatus int // 貨運狀態

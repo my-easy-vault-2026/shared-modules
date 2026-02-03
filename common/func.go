@@ -3447,90 +3447,10 @@ func (r Role) String() string {
 
 func (lp LockPurpose) String() string {
 	switch lp {
-	case LOCK_PURPOSE_APPLY_CONFIRM:
-		return "apply_confirm"
-	case LOCK_PURPOSE_REAP_TRANSACTION:
-		return "reap_transaction"
 	case LOCK_PURPOSE_EXCHANGE_CONFIRM:
 		return "exchange_confirm"
 	case LOCK_PURPOSE_TRANSFER_CONFIRM:
 		return "transfer_confirm"
-	case LOCK_PURPOSE_TOP_UP_CONFIRM:
-		return "top_up_confirm"
-	case LOCK_PURPOSE_TOP_DOWN_CONFIRM:
-		return "top_down_confirm"
-	case LOCK_PURPOSE_THREEDS_DAO:
-		return "threeds_dao"
-	case LOCK_PURPOSE_CARD_TO_CARD_CONFIRM:
-		return "card_to_card_confirm"
-	case LOCK_PURPOSE_WITHDRAW_CONFIRM:
-		return "withdraw_confirm"
-	case LOCK_PURPOSE_MERCHANT_APPLY:
-		return "merchant_apply"
-	case LOCK_PURPOSE_CALLBACK:
-		return "callback"
-	case LOCK_PURPOSE_MANUAL:
-		return "manual"
-	case LOCK_PURPOSE_MERCHANT_THREEDS_DAO:
-		return "merchant_threeds_dao"
-	case LOCK_PURPOSE_CREATE_POINT:
-		return "create_point"
-	case LOCK_PURPOSE_CREATE_WALLET:
-		return "create_wallet"
-	case LOCK_PURPOSE_TASK:
-		return "task"
-	case LOCK_PURPOSE_CONSUME_POINT:
-		return "consume_point"
-	case LOCK_PURPOSE_CREATE_AUTO_YIELD:
-		return "create_auto_yield"
-	case LOCK_PURPOSE_DISTRIBUTE_AUTO_YIELD:
-		return "distribute_auto_yield"
-	case LOCK_PURPOSE_GET_TEMP_ADDRESS:
-		return "get_temp_address"
-	case LOCK_PURPOSE_WHALE_WEBHOOK_BALANCE_EDIT:
-		return "whale_webhook_balance_edit"
-	case LOCK_PURPOSE_WHALE_WEBHOOK_TRANSFER:
-		return "whale_webhook_transfer"
-	case LOCK_PURPOSE_WHALE_WEBHOOK_CARD_TRANSACTION:
-		return "whale_webhook_card_transaction"
-	case LOCK_PURPOSE_WHALE_THREEDS_DAO:
-		return "whale_threeds_dao"
-	case LOCK_PURPOSE_CARD_STATUS_FROZEN:
-		return "card_status_frozen"
-	case LOCK_PURPOSE_WHALE_STATUS_DELETED:
-		return "whale_status_deleted"
-	case LOCK_PURPOSE_WHALE_CHECK_ADJUST:
-		return "whale_check_adjust"
-	case LOCK_PURPOSE_PAYCRYPTO_KYC_SUBMIT:
-		return "paycrypto_kyc_submit"
-	case LOCK_PURPOSE_PAYCRYPTO_ACTIVATE:
-		return "paycrypto_activate"
-	case LOCK_PURPOSE_PAYCRYPTO_WEBHOOK:
-		return "paycrypto_webhook"
-	case LOCK_PURPOSE_ADMIN_APPLY_CONFIRM:
-		return "admin_apply_confirm"
-	case LOCK_PURPOSE_ADMIN_DELETE_USER:
-		return "admin_delete_user"
-	case LOCK_PURPOSE_ADMIN_DELETE_CARD:
-		return "admin_delete_card"
-	case LOCK_PURPOSE_ETHEFI_SYNC_TRANSACTION:
-		return "etherfi_sync_transaction"
-	case LOCK_PURPOSE_ETHEFI_SYNC_CARD_TRANSACTION:
-		return "etherfi_sync_card_transaction"
-	case LOCK_PURPOSE_ETHEFI_SYNC_CARD_EVENT:
-		return "etherfi_sync_card_event"
-	case LOCK_PURPOSE_PIN_UNLOCK:
-		return "pin_unlock"
-	case LOCK_PURPOSE_ETHEFI_SYNC_SPENDING_LIMIT:
-		return "etherfi_sync_pending_limit"
-	case LOCK_PURPOSE_PHYSICAL_CARD_APPLY:
-		return "physical_card_apply"
-	case LOCK_PURPOSE_FINANCE_REPORT:
-		return "finance_report"
-	case LOCK_PURPOSE_ETHERFI_APPLY_CONFIRM:
-		return "etherfi_apply_confirm"
-	case LOCK_PURPOSE_ETHERFI_REPORT_DOWNLOAD:
-		return "etherfi_report_download"
 	}
 	return ""
 }
