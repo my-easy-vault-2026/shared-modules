@@ -3580,66 +3580,10 @@ func (ts ThreedsStatus) String() string {
 
 func (trt TransactionRecordType) String() string {
 	switch trt {
-	case TRANSACTION_RECORD_TYPE_APPLY:
-		return "apply"
 	case TRANSACTION_RECORD_TYPE_TRANSFER:
 		return "transfer"
 	case TRANSACTION_RECORD_TYPE_EXCHANGE:
 		return "exchange"
-	case TRANSACTION_RECORD_TYPE_WITHDRAW:
-		return "withdraw"
-	case TRANSACTION_RECORD_TYPE_PAY:
-		return "pay"
-	case TRANSACTION_RECORD_TYPE_DEPOSIT:
-		return "deposit"
-	case TRANSACTION_RECORD_TYPE_TOP_UP:
-		return "top_up"
-	case TRANSACTION_RECORD_TYPE_TOP_DOWN:
-		return "top_down"
-	case TRANSACTION_RECORD_TYPE_REFUND:
-		return "refund"
-	case TRANSACTION_RECORD_TYPE_VERIFY:
-		return "verify"
-	case TRANSACTION_RECORD_TYPE_CARD_TO_CARD:
-		return "card_to_card"
-	case TRANSACTION_RECORD_TYPE_MANUAL:
-		return "manual"
-	case TRANSACTION_RECORD_TYPE_DELETE_CARD:
-		return "delete_card"
-	case TRANSACTION_RECORD_TYPE_MERCHANT_AUTO_EXCHANGE:
-		return "merchant_auto_exchange"
-	case TRANSACTION_RECORD_TYPE_CHIPPAY_EXPRESS:
-		return "chippay_express"
-	case TRANSACTION_RECORD_TYPE_MERCHANT_ADJUST_BALANCE:
-		return "merchant_adjust_balance"
-	case TRANSACTION_RECORD_TYPE_POINT_ACCURAL:
-		return "point_accural"
-	case TRANSACTION_RECORD_TYPE_POINT_REDEEM:
-		return "point_redeem"
-	case TRANSACTION_RECORD_TYPE_INTEREST:
-		return "interest"
-	case TRANSACTION_RECORD_TYPE_FINANCIAL_TRANSFER:
-		return "financial_transfer"
-	case TRANSACTION_RECORD_TYPE_WHALE_PAY:
-		return "pay"
-	case TRANSACTION_RECORD_TYPE_WHALE_REFUND:
-		return "refund"
-	case TRANSACTION_RECORD_TYPE_DISTRIBUTE_APPLY:
-		return "distribute_apply"
-	case TRANSACTION_RECORD_TYPE_PAYCRYPTO_PAY:
-		return "pay"
-	case TRANSACTION_RECORD_TYPE_PAYCRYPTO_REFUND:
-		return "refund"
-	case TRANSACTION_RECORD_TYPE_PAYCRYPTO_VERIFY:
-		return "verify"
-	case TRANSACTION_RECORD_TYPE_BINANCE_PAY:
-		return "binance_pay"
-	case TRANSACTION_RECORD_TYPE_SYSTEM_CHARGE:
-		return "system_charge"
-	case TRANSACTION_RECORD_TYPE_ETHERFI:
-		return "pay"
-	case TRANSACTION_RECORD_TYPE_ETHERFI_REFUND:
-		return "refund"
 	}
 	return ""
 }
@@ -3648,40 +3592,10 @@ func (TransactionRecordType) FromString(s string) []TransactionRecordType {
 
 	var result []TransactionRecordType
 	switch s {
-	case "apply":
-		result = append(result, TRANSACTION_RECORD_TYPE_APPLY)
 	case "transfer":
 		result = append(result, TRANSACTION_RECORD_TYPE_TRANSFER)
 	case "exchange":
 		result = append(result, TRANSACTION_RECORD_TYPE_EXCHANGE)
-	case "withdraw":
-		result = append(result, TRANSACTION_RECORD_TYPE_WITHDRAW)
-	case "pay":
-		result = append(result, TRANSACTION_RECORD_TYPE_PAY, TRANSACTION_RECORD_TYPE_WHALE_PAY, TRANSACTION_RECORD_TYPE_PAYCRYPTO_PAY)
-	case "deposit":
-		result = append(result, TRANSACTION_RECORD_TYPE_DEPOSIT)
-	case "top_up":
-		result = append(result, TRANSACTION_RECORD_TYPE_TOP_UP)
-	case "top_down":
-		result = append(result, TRANSACTION_RECORD_TYPE_TOP_DOWN)
-	case "refund":
-		result = append(result, TRANSACTION_RECORD_TYPE_REFUND, TRANSACTION_RECORD_TYPE_WHALE_REFUND, TRANSACTION_RECORD_TYPE_PAYCRYPTO_REFUND)
-	case "verify":
-		result = append(result, TRANSACTION_RECORD_TYPE_VERIFY, TRANSACTION_RECORD_TYPE_PAYCRYPTO_VERIFY)
-	case "card_to_card":
-		result = append(result, TRANSACTION_RECORD_TYPE_CARD_TO_CARD)
-	case "chippay_express":
-		result = append(result, TRANSACTION_RECORD_TYPE_CHIPPAY_EXPRESS)
-	case "point_accural":
-		result = append(result, TRANSACTION_RECORD_TYPE_POINT_ACCURAL)
-	case "point_redeem":
-		result = append(result, TRANSACTION_RECORD_TYPE_POINT_REDEEM)
-	case "interest":
-		result = append(result, TRANSACTION_RECORD_TYPE_INTEREST)
-	case "financial_transfer":
-		result = append(result, TRANSACTION_RECORD_TYPE_FINANCIAL_TRANSFER)
-	case "distribute_apply":
-		result = append(result, TRANSACTION_RECORD_TYPE_DISTRIBUTE_APPLY)
 	}
 
 	return result

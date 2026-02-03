@@ -79,6 +79,10 @@ const (
 
 	CODE_NO_SUCH_USER              = 100010 // 無此用戶
 	CODE_EMAIL_OR_PIN_CODE_INVALID = 100020 // 電郵或pin code不正確
+	CODE_ASSET_TRANSACTION_FAILED  = 100030 // 資產交易失敗
+	CODE_INVALID_TARGET            = 100040 // 無效的對象
+	CODE_NO_SUCH_WALLET            = 100050 // 無此錢包
+	CODE_INSUFFICIENT_FUNDS        = 100060 // 資產不足
 
 	// user
 	CODE_USER_NO_SUCH_USER                       = 10000010 // 無此用戶
@@ -582,14 +586,6 @@ const (
 	CODE_PHYSICAL_CARD_ORDER_CARD_NOT_FOUND = 360000010 // card not found
 	CODE_PHYSICAL_CARD_ORDER_MAX_SIZE       = 360000020 // max item size
 
-)
-
-// system account
-const (
-	SYSTEM_ACCOUNT_PLATFORM uint64 = 1
-	SYSTEM_ACCOUNT_FEE      uint64 = 2
-	SYSTEM_ACCOUNT_AUDIT    uint64 = 3
-	SYSTEM_ACCOUNT_INTEREST uint64 = 4
 )
 
 type MerchantAdjustBalanceOrderStatus int // 充值狀態
@@ -2825,20 +2821,9 @@ const (
 
 type RatePurpose int // 匯率用途
 const (
-	RATE_PURPOSE_APPLY               RatePurpose = 1
-	RATE_PURPOSE_EXCHANGE            RatePurpose = 2
-	RATE_PURPOSE_TRANSFER            RatePurpose = 3
-	RATE_PURPOSE_CARD_TO_CARD        RatePurpose = 4
-	RATE_PURPOSE_TOP_UP              RatePurpose = 5
-	RATE_PURPOSE_TOP_DOWN            RatePurpose = 6
-	RATE_PURPOSE_FEE                 RatePurpose = 7
-	RATE_PURPOSE_LIMIT               RatePurpose = 8
-	RATE_PURPOSE_MERCHANT_EXCHANGE   RatePurpose = 9
-	RATE_PURPOSE_MERCHANT_TRANSFER   RatePurpose = 10
-	RATE_PURPOSE_DISCOUNT            RatePurpose = 11
-	RATE_PURPOSE_DISPLAY             RatePurpose = 12
-	RATE_PURPOSE_CHIPPAY_EXPRESS_BUY RatePurpose = 13
-	RATE_PURPOSE_TOP_UP_POINT        RatePurpose = 14
+	RATE_PURPOSE_EXCHANGE RatePurpose = 1
+	RATE_PURPOSE_TRANSFER RatePurpose = 2
+	RATE_PURPOSE_FEE      RatePurpose = 3
 )
 
 type ReapAffectBalance int // reap影響金額
@@ -3455,38 +3440,8 @@ const (
 
 type TransactionRecordType int // 交易紀錄類型
 const (
-	TRANSACTION_RECORD_TYPE_APPLY                   TransactionRecordType = 1
-	TRANSACTION_RECORD_TYPE_TRANSFER                TransactionRecordType = 2
-	TRANSACTION_RECORD_TYPE_EXCHANGE                TransactionRecordType = 3
-	TRANSACTION_RECORD_TYPE_WITHDRAW                TransactionRecordType = 4
-	TRANSACTION_RECORD_TYPE_PAY                     TransactionRecordType = 5
-	TRANSACTION_RECORD_TYPE_DEPOSIT                 TransactionRecordType = 6
-	TRANSACTION_RECORD_TYPE_TOP_UP                  TransactionRecordType = 7
-	TRANSACTION_RECORD_TYPE_TOP_DOWN                TransactionRecordType = 8
-	TRANSACTION_RECORD_TYPE_REFUND                  TransactionRecordType = 9
-	TRANSACTION_RECORD_TYPE_VERIFY                  TransactionRecordType = 10
-	TRANSACTION_RECORD_TYPE_CARD_TO_CARD            TransactionRecordType = 11
-	TRANSACTION_RECORD_TYPE_MANUAL                  TransactionRecordType = 12 // 手動帳變的時候才用
-	TRANSACTION_RECORD_TYPE_DELETE_CARD             TransactionRecordType = 13 //刪卡帳戶清零
-	TRANSACTION_RECORD_TYPE_MERCHANT_AUTO_EXCHANGE  TransactionRecordType = 14
-	TRANSACTION_RECORD_TYPE_CHIPPAY_EXPRESS         TransactionRecordType = 15
-	TRANSACTION_RECORD_TYPE_MERCHANT_ADJUST_BALANCE TransactionRecordType = 16
-	TRANSACTION_RECORD_TYPE_POINT_ACCURAL           TransactionRecordType = 17
-	TRANSACTION_RECORD_TYPE_POINT_REDEEM            TransactionRecordType = 18
-	TRANSACTION_RECORD_TYPE_INTEREST                TransactionRecordType = 19
-	TRANSACTION_RECORD_TYPE_FINANCIAL_TRANSFER      TransactionRecordType = 20
-	TRANSACTION_RECORD_TYPE_WHALE_PAY               TransactionRecordType = 21
-	TRANSACTION_RECORD_TYPE_WHALE_REFUND            TransactionRecordType = 22
-	TRANSACTION_RECORD_TYPE_DISTRIBUTE_APPLY        TransactionRecordType = 23
-	TRANSACTION_RECORD_TYPE_PAYCRYPTO_PAY           TransactionRecordType = 24
-	TRANSACTION_RECORD_TYPE_PAYCRYPTO_REFUND        TransactionRecordType = 25
-	TRANSACTION_RECORD_TYPE_PAYCRYPTO_VERIFY        TransactionRecordType = 26
-	TRANSACTION_RECORD_TYPE_BINANCE_PAY             TransactionRecordType = 27
-	TRANSACTION_RECORD_TYPE_SYSTEM_CHARGE           TransactionRecordType = 28
-	TRANSACTION_RECORD_TYPE_ADMIN_USER_DELETE       TransactionRecordType = 29
-	TRANSACTION_RECORD_TYPE_ADMIN_CARD_DELETE       TransactionRecordType = 32
-	TRANSACTION_RECORD_TYPE_ETHERFI                 TransactionRecordType = 33
-	TRANSACTION_RECORD_TYPE_ETHERFI_REFUND          TransactionRecordType = 34
+	TRANSACTION_RECORD_TYPE_TRANSFER TransactionRecordType = 2
+	TRANSACTION_RECORD_TYPE_EXCHANGE TransactionRecordType = 3
 )
 
 type TranslateMsg string // 翻譯訊息
