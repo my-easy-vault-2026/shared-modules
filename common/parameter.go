@@ -73,3 +73,10 @@ const (
 	UNIT_TYPE_MONTH       UnitType = 208
 	UNIT_TYPE_YEAR        UnitType = 209
 )
+
+type EncryptType int // 加密類型
+const (
+	ENCRYPT_TYPE_BASE64 EncryptType = 1
+	ENCRYPT_TYPE_AES    EncryptType = 2
+	ENCRYPT_TYPE_RSA    EncryptType = 3
+)

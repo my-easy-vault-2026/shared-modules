@@ -21,3 +21,17 @@ func GetAssetType(categoryID uint64) AssetType {
 	}
 	return 0
 }
+
+func (a AssetType) String() string {
+	switch a {
+	case ASSET_TYPE_CRYPTO:
+		return "crypto"
+	case ASSET_TYPE_FIAT:
+		return "fiat"
+	case ASSET_TYPE_PRODUCT:
+		return "product"
+	case ASSET_TYPE_POINT:
+		return "point"
+	}
+	return ""
+}

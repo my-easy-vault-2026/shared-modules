@@ -58,13 +58,16 @@ const (
 	CODE_INSUFFICIENT_MEMORY           = 10260 // 記憶體不足
 	CODE_INSUFFICIENT_CPU              = 10261 // CPU不足
 
-	CODE_NO_SUCH_USER              = 100010 // 無此用戶
-	CODE_EMAIL_OR_PIN_CODE_INVALID = 100020 // 電郵或pin code不正確
-	CODE_INVALED_PIN_CODE          = 100021 // pin code不正確
-	CODE_ASSET_TRANSACTION_FAILED  = 100030 // 資產交易失敗
-	CODE_INVALID_TARGET            = 100040 // 無效的對象
-	CODE_NO_SUCH_WALLET            = 100050 // 無此錢包
-	CODE_INSUFFICIENT_FUNDS        = 100060 // 資產不足
-	CODE_PREVIEW_EXPIRED           = 100070 // 預覽已過期
-	CODE_SELF_TRANSFER             = 100080 // 轉帳給自己
+	CODE_NO_SUCH_USER                    = 100010 // 無此用戶
+	CODE_EMAIL_OR_PIN_CODE_INVALID       = 100020 // 電郵或pin code不正確
+	CODE_INVALED_PIN_CODE                = 100021 // pin code不正確
+	CODE_ASSET_TRANSACTION_FAILED        = 100030 // 資產交易失敗
+	CODE_INVALID_TARGET                  = 100040 // 無效的對象
+	CODE_NO_SUCH_WALLET                  = 100050 // 無此錢包
+	CODE_INSUFFICIENT_FUNDS              = 100060 // 資產不足
+	CODE_PREVIEW_EXPIRED                 = 100070 // 預覽已過期
+	CODE_SELF_TRANSFER                   = 100080 // 轉帳給自己
+	CODE_TOKEN_EXPIRED                   = 100090 // token已過期
+	CODE_NO_SUCH_RATE                    = 100100 // 無此匯率
+	CODE_CREATE_WEBSOCKET_CHANNEL_FAILED = 100110 // 建立websocket channel失敗
 )

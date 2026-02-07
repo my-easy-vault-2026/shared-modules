@@ -400,3 +400,10 @@ func (c Currency) AssetType() AssetType {
 	}
 	return 0
 }
+
+func (c Currency) Type() CurrencyType {
+	if int(c) >= 200 {
+		return CURRENCY_TYPE_FIAT
+	}
+	return CURRENCY_TYPE_CRYPTO
+}
