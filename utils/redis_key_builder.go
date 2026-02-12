@@ -1,8 +1,9 @@
 package utils
 
 import (
-	"shared-modules/common"
 	"strconv"
+
+	"github.com/my-easy-vault-2026/shared-modules/common"
 )
 
 // redis key prefix
