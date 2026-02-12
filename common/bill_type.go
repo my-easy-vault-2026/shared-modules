@@ -1,0 +1,16 @@
+package common
+
+type BillType int // 帳變類型
+const (
+	BILL_TYPE_TRANSFER BillType = 2000
+	BILL_TYPE_EXCHANGE BillType = 3000
+)
+const (
+	BILL_TYPE_TRANSFER_SEND_DEDUCT     BillType = 2001 // 2001 發方用戶扣款
+	BILL_TYPE_TRANSFER_SEND_FEE_DEDUCT BillType = 2002 // 2002 發方用戶扣手續
+	BILL_TYPE_TRANSFER_RECEIVE_ADD     BillType = 2003 // 2003 收方用戶入款
+
+	BILL_TYPE_EXCHANGE_SEND_DEDUCT     BillType = 3001 // 3001 發方扣款
+	BILL_TYPE_EXCHANGE_SEND_FEE_DEDUCT BillType = 3002 // 3002 發方扣手續費
+	BILL_TYPE_EXCHANGE_RECEIVE_ADD     BillType = 3003 // 3003 收方入款
+)

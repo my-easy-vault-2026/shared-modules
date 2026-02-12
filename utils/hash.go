@@ -8,12 +8,10 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"encoding/hex"
-	"encoding/json"
 	"fmt"
 	"math/big"
 	"strings"
 
-	"github.com/go-webauthn/webauthn/webauthn"
 	"github.com/spaolacci/murmur3"
 	"golang.org/x/crypto/bcrypt"
 	"gopkg.in/square/go-jose.v2"
@@ -107,63 +105,6 @@ func BcryptHash(password, salt string) (string, error) {
 		return "", err
 	}
 	return string(hash), nil
-}
-
-func CheckBcryptHash(password, salt, hash string) bool {
-	// 將密碼與 salt 組合
-	saltedPassword := password + salt
-	err := bcrypt.CompareHashAndPassword([]byte(hash), []byte(saltedPassword))
-	return err != nil
-}
-
-func GetEncryptSessionData(key string, sessionData *webauthn.SessionData) (string, error) {
-	sessionDataBytes, err := json.Marshal(sessionData)
-	if err != nil {
-		return "", err
-	}
-	byteKey, err := base64.StdEncoding.DecodeString(key)
-	if err != nil {
-		return "", err
-	}
-	// 加密 sessionData
-	enc, err := jose.NewEncrypter(
-		jose.A256GCM,
-		jose.Recipient{
-			Algorithm: jose.DIRECT,
-			Key:       byteKey,
-		},
-		nil,
-	)
-	if err != nil {
-		return "", err
-	}
-	object, err := enc.Encrypt(sessionDataBytes)
-	if err != nil {
-		return "", err
-	}
-
-	encryptedSessionData, err := object.CompactSerialize()
-	if err != nil {
-		return "", err
-	}
-	return encryptedSessionData, nil
-}
-
-func DecryptSessionData(key, encryptSession string) ([]byte, error) {
-	byteKey, err := base64.StdEncoding.DecodeString(key)
-	if err != nil {
-		return nil, err
-	}
-	object, err := jose.ParseEncrypted(encryptSession)
-	if err != nil {
-		return nil, err
-	}
-	sessionDataBytes, err := object.Decrypt(byteKey)
-	if err != nil {
-		return nil, err
-	}
-
-	return sessionDataBytes, nil
 }
 
 func ShortHash(input string) string {
