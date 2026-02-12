@@ -2,15 +2,8 @@ package common
 
 type ParameterCategory int // 參數類別
 const (
-	PARAMETER_CATEGORY_ACCOUNT  ParameterCategory = 1
-	PARAMETER_CATEGORY_AUTH     ParameterCategory = 2
-	PARAMETER_CATEGORY_USER     ParameterCategory = 3
-	PARAMETER_CATEGORY_WALLET   ParameterCategory = 4
-	PARAMETER_CATEGORY_EXCHANGE ParameterCategory = 5
-	PARAMETER_CATEGORY_TRANSFER ParameterCategory = 6
-	PARAMETER_CATEGORY_ORDER    ParameterCategory = 7
-	PARAMETER_CATEGORY_QUOTE    ParameterCategory = 8
-	PARAMETER_CATEGORY_SYSTEM   ParameterCategory = 9
+	PARAMETER_CATEGORY_EXCHANGE ParameterCategory = 1
+	PARAMETER_CATEGORY_TRANSFER ParameterCategory = 2
 )
 
 // parameter key PARAMETER_KEY_{category}_{key}

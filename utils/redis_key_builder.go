@@ -36,8 +36,8 @@ func GetWsTokenRedisKey(role common.Role, token string) string {
 }
 
 // login_data:{user id}
-func GetLoginDataRedisKey(userID uint64, token string) string {
-	return prefixLoginData + ":" + strconv.FormatUint(userID, 10) + ":" + token
+func GetLoginDataRedisKey(userID uint64) string {
+	return prefixLoginData + ":" + strconv.FormatUint(userID, 10)
 }
 
 // preview:{purpose}:{key}
